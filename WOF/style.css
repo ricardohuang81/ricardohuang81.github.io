@@ -1,0 +1,116 @@
+body {
+    background-color: lemonchiffon;
+    margin: 0;
+}
+
+#game {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#wheel {
+    display: block;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 0;
+    left: 0; */
+    width: 500px;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 250px;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    -moz-transition: -moz-transform 0.5s linear;
+    -opera-transition: -opera-transform 0.5s linear;
+    -ms-transition: transform 0.5s linear;
+}
+
+#wheel:hover {
+    cursor: grab;
+    opacity: 0.8;
+}
+
+#wheel:active {
+    cursor: grabbing;
+}
+
+#tick {
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    padding: 0;
+}
+
+#display {
+    background-color: lightpink;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+#display div.word {
+    display: inline-block;
+    margin: 5px;
+}
+
+#display div.word div {
+    display: block;
+    width: 50px;
+    height: 65px;
+    margin: 2px;
+    border: 2px solid steelblue;
+    float: left;
+    line-height: 65px;
+    font-size: 40px;
+}
+
+#display div.space {
+    display: inline-block;
+    width: 50px;
+    height: 65px;
+    margin: 2px;
+    line-height: 65px;
+}
+
+#playArea {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    clear: both;
+}
+
+#playArea button {
+    text-transform: uppercase;
+    z-index: 1000;
+    border: 4px double #fff;
+    border-radius: 20px;
+    background-color: deepskyblue;
+    padding: 6px 14px;
+    color: white;
+    font-family: inherit;
+    font-size: 12pt;
+}
+
+#playArea button:hover {
+    background-color: lightskyblue;
+    cursor: grab;
+}
+
+#playArea button:active {
+    cursor: grabbing;
+}
+
+#moneyArea {
+    /* float: right; */
+    /* position: relative; */
+    /* display: inline-block; */
+    border: 2px black solid;
+    width: 200px;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.clear {
+    clear: both;
+}
