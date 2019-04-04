@@ -1,0 +1,132 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.nav {
+  height: 180px;
+  background-color: aqua;
+  font-size: 20px;
+  padding-right: 8.5%;
+  /* margin: 0 !important; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+ul li {
+  padding: 0 5px;
+  display: inline;
+}
+
+.text-left {
+  margin-top: 5px;
+  margin-left: 7%;
+  margin-right: 0;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+#aboutMeText {
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: -10%;
+  margin-bottom: 4rem;
+  width: 80%;
+}
+
+#carouselExampleFade{
+  margin: auto;
+  width: 80%; 
+}
+
+.d-block {
+  height: 100vh;
+}
+
+.carousel-caption p {
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#socialMedia {
+  margin: 0;
+  font-size: 2rem;
+  background-color: lightpink;
+  height: 180px;
+}
+
+#socialMedia ul {
+  padding: 0;
+}
+
+#socialMedia ul li{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0 !important;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.lead {
+  margin-bottom: 3rem;
+}
+
+.IN-2bc0215c-7188-4274-b598-1969e06d4d7c-1G9ISYhSF8XoOmdcl0yKDu  {
+    margin-bottom: 7px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: lightsalmon;
+  height: 180px;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
