@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -17,29 +16,65 @@
   
   <body>
       
-      <ul class="nav justify-content-end align-items-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Social</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-        
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-center"
+         style="background-color: rgb(242, 133, 142);">
+         
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
 
-      <h1 class="text-left">About</h1>
-      <p id="aboutMeText" class="text-justify">
-        Tbh helvetica stumptown locavore retro, bitters squid cardigan bushwick. Authentic shabby chic readymade shaman. Subway tile forage migas chia unicorn kitsch health goth authentic keytar tofu single-origin coffee. Selfies chartreuse palo santo, brooklyn unicorn yuccie trust fund before they sold out. Snackwave try-hard franzen pabst meggings yuccie distillery knausgaard selfies. Hexagon cloud bread keffiyeh listicle bicycle rights, hella plaid godard gastropub taiyaki palo santo pork belly glossier.
-      </p>
+            <li class="nav-item px-5 mx-3">
+              <a class="nav-link" href="#aboutSection">About</span></a>
+            </li>
+          
+            <li class="nav-item px-5 mx-3">
+              <a class="nav-link" href="#educationSection">Education</a>
+            </li>
+
+            <li class="nav-item px-5 mx-3">
+              <a class="nav-link" href="#socialSection">Social</a>
+            </li>
+
+            <li class="nav-item px-5 mx-3">
+              <a class="nav-link" href="#projectsSection">Projects</a>
+            </li>
+          
+            <li class="nav-item px-5 mx-3">
+              <a class="nav-link" href="#contactSection">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>        
+
+      <div id="aboutSection" class="row justify-content-center align-items-center">
+        <h1>About</h1>
+      </div>
+
+      <section class="jumbotron text-center">
+        <p id="aboutMeText" class="text-justify">
+          I program JavaScript (ES6+) on the frontend and backend (Node.js + Express.js). This is my portfolio site that contains my work/projects for the CUNY TechWorks software development program. I hope to work with React.js or Vue.js in a Junior Frontend Developer role. Have a listen to some tunes from one of my favorite artists with the Spotify Player below and browse the rest of the site to see where my interests/values lie. 🙂
+        </p>
+      </section>
+
+      <div id="spotifyContainer" class="container">
+        <div id="spotifyPlayer" class="row text-center">
+          <div class="col-12">
+            <iframe 
+              id="spotifyPlayer"
+              src="https://open.spotify.com/embed/artist/4wvPcMJk7L9Rbw9Qh4kBeH" 
+              width="460" 
+              height="180" 
+              frameborder="0"
+              allowtransparency="true" 
+              allow="encrypted-media">
+            </iframe>
+          </div>
+        </div>
+      </div>
 
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -104,61 +139,163 @@
         </a>
       </div>
 
-      <h1 class="text-center">Social</h1>
-
-      <div id="socialMedia" class="row align-items-center">
-        <div class="col text-center">
-          <ul>
-            <li><i class="fab fa-github"></i></i></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
-            <li><i class="fab fa-codepen"></i></li>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-            <li><i class="fab fa-facebook-f"></i></li>
-            <li><i class="fab fa-pinterest"></i></li>
-          </ul>
+      
+      <div id="educationSection" class="row justify-content-center align-items-center">
+        <h1>Education</h1>
+      </div>
+      
+      
+      
+      <div class="card mb-3 mx-auto" 
+           style="max-width: 60%; margin-bottom: 3rem!important;"
+      >
+        
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="https://www2.cuny.edu/about/administration/offices/workforce/cuny-techworks/software-development/" target="_blank">
+              <img src="assets/avatars/ctw.png" style="padding: 1.5rem; border: 1.5rem solid #fff; box-shadow: inset 0px 0px 0px 1px #000;" class="card-img" alt="TechWorks">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://www2.cuny.edu/about/administration/offices/workforce/cuny-techworks/software-development/" target="_blank">
+                  CUNY TechWorks: Software Development Program
+                </a>
+              </h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Software development training program covering the competencies needed for web client programming, systems design and implementation, and smartphone application development
+                </li>
+                <li class="list-group-item">
+                  Technologies: Microsoft Office, HTML, CSS, Bootstrap, JavaScript, jQuery, React, React Native, C++, Java, Android Studio, Python
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+      
+
+      <div class="card mb-3 mx-auto" 
+           style="max-width: 60%; margin-bottom: 3rem!important;"
+      >
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="https://entrepreneurship.mit.edu/accelerator/2018-teams/" target="_blank">
+              <img src="assets/avatars/acciyo.png" style="border: 1.5rem solid #fff; outline: 1px solid #000; outline-offset: -1.5rem;" class="card-img" alt="Acciyo">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://entrepreneurship.mit.edu/accelerator/2018-teams/" target="_blank">
+                  Acciyo: Full Stack Development Internship
+                </a>
+              </h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  News-tool startup Acciyo was a part of NYC Startup Studio (MIT delta v Accelerator)
+                </li>
+                <li class="list-group-item">
+                  Technologies: Chrome Extensions, JavaScript, CSS, jQuery(UI), Node, AJAX, Python, AWS Elasticsearch, Regex
+                </li>
+                <li class="list-group-item">
+                  Designed user login frontend with CSS & jQuery(UI) in Chrome extension tool for avid news readers
+                </li>
+                <li class="list-group-item">
+                  Set up manifest and content/background scripts with Chrome messaging (listeners) to interact with AWS S3 server for user login
+                </li>
+                <li class="list-group-item">
+                  Built queries w/ Python & wrote Regex to clean up AWS Elasticsearch metadata on scraped APNews text
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 mx-auto" 
+           style="max-width: 60%; margin-bottom: 5rem!important;"
+      >
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="https://www.galvanize.com/web-development" target="_blank">
+              <img src="assets/avatars/galvanize.png" style="border: 1.5rem solid #fff; outline: 1px solid #000; outline-offset: -1.5rem;" class="card-img" alt="Galvanize">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://www.galvanize.com/web-development" target="_blank">
+                  Galvanize: Full Stack Web Development Program
+                </a>
+              </h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Diverse tech community in downtown NYC that offered a wide range of services including an immersive full stack web development education program, a startup atmosphere that included tech accleterator program Tech Stars, the opportunity to work with aspiring entrepreneurs seeking to get projects off the ground, as well as workshops hosted by established tech giants such as IBM. Free panel and roundtable discussion events preaching diversity and inclusion in the tech industry were readily available for its members year-round.
+                </li>
+                <li class="list-group-item">
+                  Technologies: JavaScript, jQuery, ES6, HTML5, CSS3, MaterializeCSS, Bootstrap, Node, NPM, Yarn, Express, Knex, PostgreSQL, React, Create-React-App, Webpack, React Router, MobX, Postman, JSON, JSONP, AJAX, Axios, Bcrypt, RESTful API, Twitter API, Google Maps API, DarkSky.net API, Behance API, Unsplash API, GitHub/Git, GitHub Pages, Firebase, Heroku, AWS
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="socialSection" class="row justify-content-center align-items-center">
+        <h1>Social</h1>
+      </div>
+
+
+      <div id="socialIcons" class="container">
+        <div id="iconRows" class="row text-center">
+          <div class="col-sm-4 mb-5"><a href="https://github.com/ricardohuang81" target="_blank" class="selected"><i class="fab fa-github"></i></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://www.linkedin.com/in/huangricky/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://codepen.io/ricardojames51/pens/public/" target="_blank"><i class="fab fa-codepen"></i></a></div>
+      
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+      
+          <div class="col-sm-4 mb-5"><a href="https://twitter.com/ricardojames51" target="_blank"><i class="fab fa-twitter"></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://www.instagram.com/rickylosophy/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://www.facebook.com/ricardojames51" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+
+          <div class="w-100"></div>
+
+          <div class="col-sm-4 mb-5"><a href="https://www.pinterest.com/ricardojames51/your-pinterest-likes/" target="_blank"><i class="fab fa-pinterest"></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://www.quora.com/profile/Ricky-Huang-7" target="_blank"><i class="fab fa-quora"></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://www.meetup.com/members/204234831/" target="_blank"><i class="fab fa-meetup"></i></a></div>
+        </div>
+      </div>
+
+
+      <div id="projectsSection" class="row justify-content-center align-items-center">
+        <h1>Projects</h1>
       </div>
 
       <main role="main">
       
-        <section class="jumbotron text-center">
+        <section class="jumbotron text-justify">
           <div class="container">
-            <h1 class="jumbotron-heading">Projects</h1>
-            <p class="lead text-muted">Lorem Ipsum best not make any more threats to your website. It will be met with fire and fury like the world has never seen. It’s about making placeholder text great again. That’s what people want, they want placeholder text to be great again. He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured.
-            </p>
-            <p>
-              
-              <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-              <script type="IN/Share" data-url="https://ricardohuang81.github.io/"></script>
 
-              <a class="twitter-share-button"
-                href="https://twitter.com/share?count=none&url=https://ricardohuang81.github.io/&hashtags=RickysPortfolio"
-              >
-                Tweet
-              </a>
-              <script>
-                window.twttr = (function (d, s, id) {
-                  var js, fjs = d.getElementsByTagName(s)[0],
-                    t = window.twttr || {};
-                  if (d.getElementById(id)) return t;
-                  js = d.createElement(s);
-                  js.id = id;
-                  js.src = "https://platform.twitter.com/widgets.js";
-                  fjs.parentNode.insertBefore(js, fjs);
-                  t._e = [];
-                  t.ready = function (f) {
-                    t._e.push(f);
-                  };
-                  return t;
-                }(document, "script", "twitter-wjs"));
-              </script>
+            <p class="lead text-body">Check out some of my frontend projects from the CUNY TechWorks JavaScript course plus some other personal frontend projects (including mini projects I followed on Udemy) using the YouTube API, React.js, Redux.js, Gatsby.js, and much more. 😎 (Feel free to share this page!)
+            </p>
+            <p class="text-center">
+              
+              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
+                data-text="Nice website!" data-url="https://ricardohuang81.github.io/" data-via="ricardojames51"
+                data-hashtags="CUNYTechWorks" data-related="" data-show-count="false">Tweet</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               
               <iframe
-                src="https://www.facebook.com/plugins/share_button.php?href=https://ricardohuang81.github.io/&layout=button&size=small&width=59&height=20&appId"
-                width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+                src="https://www.facebook.com/plugins/share_button.php?href=https://ricardohuang81.github.io/&layout=button&size=large&width=73&height=28&appId"
+                width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
                 allow="encrypted-media">
               </iframe>
+              
 
             </p>
           </div>
@@ -365,14 +502,140 @@
       
       </main>
 
-      <footer class="text-muted">
-        <div class="container">
-          <p class="float-right">
+      <!-- Contact Form Section -->
+
+      <div id="contactSection" class="row justify-content-center align-items-center">
+        <h1>Contact</h1>
+      </div>
+      
+      <section id="formSection" class="mb-4">
+      
+        <!--Section heading-->
+        
+        <!--Section description-->
+        <p class="text-info mb-4">Please fill out your name, email address, and leave a short message, thanks. 🙂</p>
+      
+        <div class="row">
+      
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+      
+              <!--Grid row-->
+              <div class="row mb-3">
+      
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label for="name" class="">Name</label>
+                    <input 
+                      type="text" 
+                      id="name" 
+                      name="name" 
+                      class="form-control"
+                      placeholder="please enter your name"
+                    >
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label for="email" class="">Email</label>
+                    <input 
+                      type="text" 
+                      id="email" 
+                      name="email" 
+                      class="form-control"
+                      placeholder="please enter your email address"
+                    >
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+              </div>
+              <!--Grid row-->
+      
+              <!--Grid row-->
+              <div class="row mb-3">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <label for="subject" class="">Subject</label>
+                    <input 
+                      type="text" 
+                      id="subject" 
+                      name="subject" 
+                      class="form-control"
+                      placeholder="please enter the subject matter"
+                    >
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+      
+              <!--Grid row-->
+              <div class="row mb-4">
+      
+                <!--Grid column-->
+                <div class="col-md-12">
+      
+                  <div class="md-form">
+                    <label for="message">Message</label>
+                    <textarea 
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="2"
+                      placeholder="please enter your message"
+                      class="form-control md-textarea"
+                    ></textarea>
+                  </div>
+      
+                </div>
+              </div>
+              <!--Grid row-->
+      
+            </form>
+      
+            <div class="text-center text-md-left mb-3">
+              <a class="btn btn-success" onclick="validateForm()">Submit</a>
+            </div>
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div id="contactIcons" class="col-md-3 text-center">
+            <ul class="list-unstyled my-3">
+              <li><i class="fas fa-street-view fa-3x"></i></i>
+                <p>Queens, NYC</p>
+              </li>
+      
+              <li><i class="fas fa-mobile-alt fa-3x"></i>
+                <p>917-547-7620</p>
+              </li>
+      
+              <li><i class="fas fa-envelope-open-text fa-3x"></i>
+                <p>huangricky@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+      
+        </div>
+      
+      </section>
+
+        
+
+      <footer class="text-white align-items-center">
+        <div class="container-fluid text-center">
+          
+          <p class="mb-3">RICKY HUANG</p>
+          <p class="float-center">
             <a href="#">Back to top</a>
           </p>
-          <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-          <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
-              href="/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
         </div>
       </footer>
 
@@ -382,10 +645,37 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         
     <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      function validateForm() {
+        document.getElementById('status').innerHTML = "Sending...";
+        formData = {
+          'name': $('input[name=name]').val(),
+          'email': $('input[name=email]').val(),
+          'subject': $('input[name=subject]').val(),
+          'message': $('textarea[name=message]').val()
+        };
+
+        $.ajax({
+          url: "mail.php",
+          type: "POST",
+          data: formData,
+          success: function (data, textStatus, jqXHR) {
+
+            $('#status').text(data.message);
+            if (data.code) //If mail was sent successfully, reset the form.
+              $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+          },
+          error: function (jqXHR, textStatus, errorThrown) {
+            $('#status').text(jqXHR);
+          }
+        });
+      }
+    </script>
 
   </body>
 </html>

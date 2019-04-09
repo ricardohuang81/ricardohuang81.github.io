@@ -1,46 +1,70 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  background-color: #f8f9fa!important;
 }
 
-.nav {
-  height: 180px;
-  background-color: aqua;
-  font-size: 20px;
-  padding-right: 8.5%;
-  /* margin: 0 !important; */
+.nav-link {
+  color: darkslategrey !important;
 }
 
-ul {
-  list-style-type: none;
+.nav-link:hover {
+  cursor: pointer;
+  color: #000 !important;
+}
+
+.navbar-toggler-icon:hover {
+  cursor: grab;
+}
+
+.navbar-toggler-icon:active {
+  cursor: grabbing;
+}
+
+#aboutSection {
+  padding: 0;
   margin: 0;
-}
-
-ul li {
-  padding: 0 5px;
-  display: inline;
-}
-
-.text-left {
-  margin-top: 5px;
-  margin-left: 7%;
-  margin-right: 0;
-}
-
-h1 {
-  padding: 2rem;
+  background-color: aqua;
+  height: 112px;
 }
 
 #aboutMeText {
   font-size: 20px;
-  margin-left: 10%;
-  margin-right: -10%;
-  margin-bottom: 4rem;
-  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 70%;
+}
+
+#spotifyContainer {
+  padding: 0;
+  background-color: turquoise;
+  border-radius: 25px;
+  opacity: 0.7;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 180px;
+  width: 520px;
+}
+
+@media (max-width: 688px) {
+  .col-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #spotifyContainer {
+    border-radius: 10px;
+    width: 300px;
+  }
+  #spotifyPlayer {
+    margin: auto;
+    width: 270px;
+  }
 }
 
 #carouselExampleFade{
   margin: auto;
   width: 80%; 
+  margin-bottom: 5rem;
 }
 
 .d-block {
@@ -52,29 +76,57 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
 }
 
-#socialMedia {
+#educationSection {
   margin: 0;
-  font-size: 2rem;
-  background-color: lightpink;
-  height: 180px;
+  margin-bottom: 5rem;
+  height: 112px;
+  background-color: lightskyblue;
 }
 
-#socialMedia ul {
+a img:hover {
+  cursor: grab;
+  opacity: 0.9;
+}
+
+a img:active {
+  cursor: grabbing;
+}
+
+.card-title a:hover {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+#socialSection {
   padding: 0;
+  margin: 0;
+  background-color: plum;
+  height: 112px;
+  margin-bottom: 3rem;
 }
 
-#socialMedia ul li{
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right: 4%;
+#socialIcons {
+  width: 25%;
+  font-size: 2rem;
+}
+
+#socialIcons a {
+  color: #000;
+}
+
+#socialIcons a:hover {
+  cursor: grab;
+  color: plum;
+}
+
+#socialIcons a:active {
+  cursor: grabbing;
+  color: lightsalmon;
 }
 
 .jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 2rem 0 !important;
   margin-bottom: 0 !important;
-  background-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -84,24 +136,19 @@ h1 {
   }
 }
 
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron-heading {
-  font-weight: 300;
-}
-
 .jumbotron .container {
   max-width: 40rem;
 }
 
-.lead {
-  margin-bottom: 3rem;
+#projectsSection {
+  padding: 0;
+  margin: 0;
+  background-color: lightsalmon;
+  height: 112px;
 }
 
-.IN-2bc0215c-7188-4274-b598-1969e06d4d7c-1G9ISYhSF8XoOmdcl0yKDu  {
-    margin-bottom: 7px;
+.lead {
+  margin-bottom: 2rem;
 }
 
 .bd-placeholder-img {
@@ -119,14 +166,36 @@ h1 {
   }
 }
 
+#contactSection {
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+  height: 112px;
+  margin-bottom: 3rem;
+}
+
+#formSection {
+  margin: auto;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  #name {
+    margin-bottom: 1rem;
+  }
+  .btn-success {
+    margin-bottom: -3rem;
+  }
+}
+
+.text-info {
+  margin-left: 0 !important;
+  font-size: 20px;
+}
 
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: lightsalmon;
-  height: 180px;
-}
-
-footer p {
-  margin-bottom: .25rem;
+  background-color: #000;
+  height: 140px;
 }
