@@ -126,7 +126,7 @@ h1 a:active {
   margin: 0;
   margin-bottom: 5rem;
   height: 112px;
-  background-color: #87CEFA;
+  background-color: #F4A460;
 }
 
 a img:hover {
@@ -140,7 +140,7 @@ a img:active {
 
 .card-title a:hover {
   text-decoration: none;
-  color: #17a2b8;
+  color: #F4A460;
 }
 
 #socialSection {
@@ -188,11 +188,11 @@ a img:active {
 #projectsSection {
   padding: 0;
   margin: 0;
-  background-color: #FFA07A;
+  background-color: #87CEFA;
   height: 112px;
 }
 
-.lead {
+p .lead {
   margin-bottom: 2rem;
 }
 
@@ -209,9 +209,24 @@ a img:active {
   transition: all 0.3s;
 }
 
+.col-md-4 .card .card-body {
+  height: 200px;
+  padding-bottom: 0;
+  background-color: #F0F8FF;
+  border-top: 1px solid #17a2b8;
+}
+
+.btn-group {
+  padding-top: 1rem;
+}
+
+.btn-group a{
+  color: #FF7F50;
+}
+
 .btn-group a:hover {
   cursor: grab;
-  color: #FFA07A;
+  color: #007bff;
 }
 
 .btn-group a:active {
