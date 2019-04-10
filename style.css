@@ -6,7 +6,7 @@
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
-  background-color: #f8f9fa!important;
+  background-color: #F0FFFF !important;
 }
 
 .nav-link {
@@ -81,10 +81,20 @@ h1 a:active {
   width: 50%;
 }
 
+#aboutMeText a {
+  text-decoration: none;
+  color: #6A5ACD;
+}
+
+#aboutMeText a:hover {
+  cursor: grab;
+  color: #663399;
+}
+
 #spotifyContainer {
   padding: 0;
   background-color: #40E0D0;
-  border-radius: 20px;
+  border-radius: 25px;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -125,6 +135,7 @@ h1 a:active {
 #educationSection {
   margin: 0;
   margin-bottom: 5rem;
+  padding: 0;
   height: 112px;
   background-color: #F4A460;
 }
@@ -148,12 +159,13 @@ a img:active {
   margin: 0;
   background-color: #DDA0DD;
   height: 112px;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 #socialIcons {
-  width: 32%;
+  width: 44%;
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 #socialIcons a {
@@ -169,7 +181,6 @@ a img:active {
 #socialIcons a:active {
   cursor: grabbing;
 }
-
 
 #projectsSection {
   padding: 0;
@@ -208,6 +219,14 @@ p .lead {
   overflow: hidden;
   width: 100%;
 }
+
+.item a:hover {
+  cursor: grab;
+}
+
+.item a:active {
+  cursor: grabbing;
+}
       
 .item img {
   max-width: 100%;  
@@ -217,9 +236,9 @@ p .lead {
 }
 
 .col-md-4 .card .card-body {
-  height: 200px;
+  /* height: 200px; */
   padding-bottom: 0;
-  background-color: #F0F8FF;
+  background-color: #FFF0F5;
   border-top: 1px solid #17a2b8;
 }
 
@@ -228,12 +247,12 @@ p .lead {
 }
 
 .btn-group a{
-  color: #FF7F50;
+  color: #007bff
 }
 
 .btn-group a:hover {
   cursor: grab;
-  color: #007bff;
+  color: rgb(242, 133, 142);
   font-size: 18px;
 }
 
@@ -266,6 +285,16 @@ p .lead {
 .text-info {
   margin-left: 0 !important;
   font-size: 20px;
+}
+
+.list-unstyled a:hover {
+  color: #FF69B4;
+  cursor: grab;
+  font-size: 18px;
+}
+
+.list-unstyled a:active {
+  cursor: grabbing;
 }
 
 footer {
