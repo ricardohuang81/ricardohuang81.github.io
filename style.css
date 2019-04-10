@@ -163,10 +163,19 @@ a img:active {
 #socialIcons a:hover {
   cursor: grab;
   color: #DDA0DD;
+  font-size: 3rem;
 }
 
 #socialIcons a:active {
   cursor: grabbing;
+}
+
+
+#projectsSection {
+  padding: 0;
+  margin: 0;
+  background-color: #87CEFA;
+  height: 112px;
 }
 
 .jumbotron {
@@ -185,15 +194,13 @@ a img:active {
   max-width: 40rem;
 }
 
-#projectsSection {
-  padding: 0;
-  margin: 0;
-  background-color: #87CEFA;
-  height: 112px;
+p .lead {
+  padding-top: 0;
+  margin-bottom: 2rem;
 }
 
-p .lead {
-  margin-bottom: 2rem;
+#shareIcons {
+  word-spacing: 10px;
 }
 
 .item {
@@ -227,6 +234,7 @@ p .lead {
 .btn-group a:hover {
   cursor: grab;
   color: #007bff;
+  font-size: 18px;
 }
 
 .btn-group a:active {
