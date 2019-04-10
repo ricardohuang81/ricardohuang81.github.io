@@ -16,7 +16,7 @@
   
   <body>
       
-    <nav class="navbar navbar-expand-lg navbar-light justify-content-center"
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light justify-content-center"
          style="background-color: rgb(242, 133, 142);">
          
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav justify-content-between">
 
             <li class="nav-item px-5 mx-3">
               <a class="nav-link" href="#aboutSection">About</span></a>
@@ -50,9 +50,14 @@
         </div>
     </nav>        
 
-      <div id="aboutSection" class="row justify-content-center align-items-center">
-        <h1>About</h1>
+      
+      <div id="aboutSection" class="row justify-content-between align-items-end">
+          <a href="#aboutSection"><i class="fas fa-chevron-up fa-2x pl-5 ml-5 text-white"></i></a>
+            <h1><a href="#aboutSection">About</a></h1>
+          <a class="smooth-scroll" href="#educationSection"><i class="fas fa-chevron-down fa-2x pr-5 mr-5 text-white"></i></a>
       </div>
+
+      <!-- <div ></div> -->
 
       <section class="jumbotron text-center">
         <p id="aboutMeText" class="text-justify">
@@ -140,8 +145,10 @@
       </div>
 
       
-      <div id="educationSection" class="row justify-content-center align-items-center">
-        <h1>Education</h1>
+      <div id="educationSection" class="row justify-content-between align-items-end">
+        <a href="#aboutSection"><i class="fas fa-chevron-up fa-2x pl-5 ml-5 text-white"></i></a>
+          <h1><a href="#educationSection">Education</a></h1>
+        <a class="smooth-scroll" href="#socialSection"><i class="fas fa-chevron-down fa-2x pr-5 mr-5 text-white"></i></a>
       </div>
       
       
@@ -153,7 +160,9 @@
         <div class="row no-gutters">
           <div class="col-md-4">
             <a href="https://www2.cuny.edu/about/administration/offices/workforce/cuny-techworks/software-development/" target="_blank">
-              <img src="assets/avatars/ctw.png" style="padding: 1.5rem; border: 1.5rem solid #fff; box-shadow: inset 0px 0px 0px 1px #000;" class="card-img" alt="TechWorks">
+              <div class="item">
+                <img src="assets/avatars/ctw.png" style="padding: 2rem; border: 2rem solid #fff; box-shadow: inset 0px 0px 0px 1px #000;" class="card-img" alt="TechWorks">
+              </div>
             </a>
           </div>
           <div class="col-md-8">
@@ -183,7 +192,9 @@
         <div class="row no-gutters">
           <div class="col-md-4">
             <a href="https://entrepreneurship.mit.edu/accelerator/2018-teams/" target="_blank">
-              <img src="assets/avatars/acciyo.png" style="border: 1.5rem solid #fff; outline: 1px solid #000; outline-offset: -1.5rem;" class="card-img" alt="Acciyo">
+              <div class="item">
+                <img src="assets/avatars/acciyo.png" style="border: 2rem solid #fff; outline: 1px solid #000; outline-offset: -2rem;" class="card-img" alt="Acciyo">
+              </div>
             </a>
           </div>
           <div class="col-md-8">
@@ -221,7 +232,9 @@
         <div class="row no-gutters">
           <div class="col-md-4">
             <a href="https://www.galvanize.com/web-development" target="_blank">
-              <img src="assets/avatars/galvanize.png" style="border: 1.5rem solid #fff; outline: 1px solid #000; outline-offset: -1.5rem;" class="card-img" alt="Galvanize">
+              <div class="item">
+                <img src="assets/avatars/galvanize.png" style="border: 2rem solid #fff; outline: 1px solid #000; outline-offset: -2rem;" class="card-img" alt="Galvanize">
+              </div>
             </a>
           </div>
           <div class="col-md-8">
@@ -245,14 +258,16 @@
       </div>
 
 
-      <div id="socialSection" class="row justify-content-center align-items-center">
-        <h1>Social</h1>
+      <div id="socialSection" class="row justify-content-between align-items-end">
+        <a href="#educationSection"><i class="fas fa-chevron-up fa-2x pl-5 ml-5 text-white"></i></a>
+          <h1><a href="#socialSection">Social</a></h1>
+        <a class="smooth-scroll" href="#projectsSection"><i class="fas fa-chevron-down fa-2x pr-5 mr-5 text-white"></i></a>
       </div>
 
 
       <div id="socialIcons" class="container">
         <div id="iconRows" class="row text-center">
-          <div class="col-sm-4 mb-5"><a href="https://github.com/ricardohuang81" target="_blank" class="selected"><i class="fab fa-github"></i></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://github.com/ricardohuang81" target="_blank" class="selected"><i class="fab fa-github"></i></a></div>
           <div class="col-sm-4 mb-5"><a href="https://www.linkedin.com/in/huangricky/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
           <div class="col-sm-4 mb-5"><a href="https://codepen.io/ricardojames51/pens/public/" target="_blank"><i class="fab fa-codepen"></i></a></div>
       
@@ -268,12 +283,20 @@
           <div class="col-sm-4 mb-5"><a href="https://www.pinterest.com/ricardojames51/your-pinterest-likes/" target="_blank"><i class="fab fa-pinterest"></i></a></div>
           <div class="col-sm-4 mb-5"><a href="https://www.quora.com/profile/Ricky-Huang-7" target="_blank"><i class="fab fa-quora"></i></a></div>
           <div class="col-sm-4 mb-5"><a href="https://www.meetup.com/members/204234831/" target="_blank"><i class="fab fa-meetup"></i></a></div>
+
+          <div class="w-100"></div>
+
+          <div class="col-sm-4 mb-5"><a href="https://stackoverflow.com/users/8565713/ricky-ricardo?tab=profile" target="_blank"><i class="fab fa-stack-overflow"></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://angel.co/ricardohuang51" target="_blank"><i class="fab fa-angellist"></i></a></div>
+          <div class="col-sm-4 mb-5"><a href="https://medium.com/@ricardojames51" target="_blank"><i class="fab fa-medium"></i></a></div>
         </div>
       </div>
 
 
-      <div id="projectsSection" class="row justify-content-center align-items-center">
-        <h1>Projects</h1>
+      <div id="projectsSection" class="row justify-content-between align-items-end">
+        <a href="#socialSection"><i class="fas fa-chevron-up fa-2x pl-5 ml-5 text-white"></i></a>
+          <h1><a href="#projectsSection">Projects</a></h1>
+        <a class="smooth-scroll" href="#contactSection"><i class="fas fa-chevron-down fa-2x pr-5 mr-5 text-white"></i></a>
       </div>
 
       <main role="main">
@@ -281,7 +304,7 @@
         <section class="jumbotron text-justify">
           <div class="container">
 
-            <p class="lead text-body">Check out some of my frontend projects from the CUNY TechWorks JavaScript course plus some other personal frontend projects (including mini projects I followed on Udemy) using the YouTube API, React.js, Redux.js, Gatsby.js, and much more. 😎 (Feel free to share this page!)
+            <p class="lead text-body">Check out some of my frontend projects from the CUNY TechWorks JavaScript course plus some other personal frontend projects (including mini projects I followed on Udemy) using the YouTube API, React.js, Redux.js, Gatsby.js, and more. 😎 (Feel free to share this page!)
             </p>
             <p class="text-center">
               
@@ -307,21 +330,18 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                      dy=".3em">Thumbnail</text>
-                  </svg>
+                  <div class="item">
+                    <img src="assets/project-images/fortune_teller.png" class="card-img-top" width="100%" height="225" style="border: 1px solid #FFA07A;" alt="project-image">
+                  </div>
+                  
                   <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional
                       content. This content is a little bit longer.</p>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="btn-group m-auto">
+                        <a href="https://github.com/ricardohuang81/fortune_teller_static" target="_blank" class="selected mx-3"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="projects/fortune_teller/index.html" target="_blank" class="selected mx-3"><i class="fas fa-link fa-2x"></i></a>
                       </div>
-                      <small class="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
@@ -504,8 +524,10 @@
 
       <!-- Contact Form Section -->
 
-      <div id="contactSection" class="row justify-content-center align-items-center">
-        <h1>Contact</h1>
+      <div id="contactSection" class="row justify-content-between align-items-end">
+        <a href="#projectsSection"><i class="fas fa-chevron-up fa-2x pl-5 ml-5 text-white"></i></a>
+          <h1><a href="#contactSection">Contact</a></h1>
+        <a class="smooth-scroll" href="#contactSection"><i class="fas fa-chevron-down fa-2x pr-5 mr-5 text-white"></i></a>
       </div>
       
       <section id="formSection" class="mb-4">
@@ -634,7 +656,7 @@
           
           <p class="mb-3">RICKY HUANG</p>
           <p class="float-center">
-            <a href="#">Back to top</a>
+            <a href="#aboutSection">Back to top</a>
           </p>
         </div>
       </footer>
@@ -645,11 +667,69 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
         
     <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+      $("document").ready(function () {
+        $('body').scrollspy({ target: ".navbar", offset: 50 });
+
+        // Add smooth scrolling on all links inside the navbar
+        $("#navbarNavDropdown a").on('click', function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+            // Store hash
+            var hash = this.hash;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          }
+        });
+
+        $("footer a").on('click', function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function () {
+              window.location.hash = hash;
+            });
+          }
+        });
+
+        $(".card").mouseover(function () {
+          var i = $(this).index();
+          $(".border-effect").eq(i).animate({ width: "100%" }, 200);
+          $(this).find("img").css({
+            '-moz-transform': 'scale(1.1)',
+            '-webkit-transform': 'scale(1.1)',
+            'transform': 'scale(1.1)'
+          })
+        });
+
+        $(".card").mouseleave(function () {
+          var i = $(this).index();
+          $(".border-effect").eq(i).animate({ width: "20%" }, 200);
+          $(this).find("img").css({
+            '-moz-transform': 'scale(1.0)',
+            '-webkit-transform': 'scale(1.0)',
+            'transform': 'scale(1.0)'
+          })
+        });
+      })
+
+    </script>
+    
     <script>
       function validateForm() {
         document.getElementById('status').innerHTML = "Sending...";

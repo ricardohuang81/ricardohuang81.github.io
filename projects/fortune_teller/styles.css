@@ -1,0 +1,50 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#black {
+    position: relative;
+    color: white;
+    background-color: black;
+    background-image: linear-gradient(black, darkslategrey);
+    border: none;
+    border-radius: 20%;
+    box-shadow: 12px -12px 1px 3px aquamarine;
+    cursor: pointer;
+    font-size: 75px;
+    height: 250px;
+    width: 250px;
+    margin: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+#black:hover {
+    background: black;
+    box-shadow: -13px 13px 7px 3px hotpink;
+    color: yellow;
+}
+
+#gif {
+    display: none;
+    position: absolute;
+    width: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+#fortune {
+    display: none;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: yellow;
+    margin: 15%;
+    line-height: 2.8;
+    text-align: center;
+    z-index: 2;
+}

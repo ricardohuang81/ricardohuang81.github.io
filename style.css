@@ -1,15 +1,25 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
   background-color: #f8f9fa!important;
 }
 
 .nav-link {
-  color: #2F4F4F !important;
+  color: #4682B4 !important;
 }
 
 .nav-link:hover {
-  cursor: pointer;
+  cursor: grab;
   color: #000 !important;
+}
+
+.nav-link:active {
+  cursor: grabbing;
 }
 
 .navbar-toggler-icon:hover {
@@ -20,12 +30,49 @@ body {
   cursor: grabbing;
 }
 
+@media (max-width: 991px) {
+  .navbar-toggler-icon:hover {
+    cursor: grab;
+  }
+  .navbar-toggler-icon:active {
+    cursor: grabbing;
+  }
+}
+
+a .fa-chevron-up, a .fa-chevron-down {
+  padding-bottom: 12px;
+}
+
+a .fa-chevron-up:hover, a .fa-chevron-down:hover {
+  cursor: grab;
+  color: #000 !important;
+}
+
+a .fa-chevron-up:active, a .fa-chevron-down:active {
+  cursor: grabbing;
+}
+
+h1 a {
+  color: #000;
+}
+
+h1 a:hover {
+  cursor: grab;
+  color: #7B68EE;
+  text-decoration: none;
+}
+
+h1 a:active {
+  cursor: grabbing;
+}
+
 #aboutSection {
   padding: 0;
   margin: 0;
   background-color: #00FFFF;
   height: 112px;
 }
+
 
 #aboutMeText {
   font-size: 20px;
@@ -106,7 +153,7 @@ a img:active {
 }
 
 #socialIcons {
-  width: 25%;
+  width: 32%;
   font-size: 2rem;
 }
 
@@ -121,7 +168,6 @@ a img:active {
 
 #socialIcons a:active {
   cursor: grabbing;
-  color: #FFA07A;
 }
 
 .jumbotron {
@@ -151,19 +197,26 @@ a img:active {
   margin-bottom: 2rem;
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.item {
+  position: relative;  
+  overflow: hidden;
+  width: 100%;
+}
+      
+.item img {
+  max-width: 100%;  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+.btn-group a:hover {
+  cursor: grab;
+  color: #FFA07A;
+}
+
+.btn-group a:active {
+  cursor: grabbing;
 }
 
 #contactSection {
@@ -198,4 +251,18 @@ footer {
   padding-bottom: 3rem;
   background-color: #000;
   height: 140px;
+}
+
+footer a {
+  color: #17a2b8
+}
+
+footer a:hover {
+  cursor: grab;
+  text-decoration: none;
+  color: #FF69B4;
+}
+
+footer a:active {
+  cursor: grabbing;
 }
