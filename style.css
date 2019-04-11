@@ -7,7 +7,6 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
   background-color: #F0FFFF !important;
-  /* background-color: #fff !important; */
 }
 
 .nav-link {
@@ -241,14 +240,14 @@ p .lead {
 }
 
 .col-md-4 .card .card-body {
-  /* height: 200px; */
+  font-family: 'Roboto Condensed', sans-serif;
   padding-bottom: 0;
   background-color: #FFF0F5;
   border-top: 1px solid #17a2b8;
 }
 
 .btn-group {
-  /* padding-top: 1rem; */
+  padding-bottom: 1rem;
 }
 
 .btn-group a{
@@ -287,9 +286,9 @@ p .lead {
   }
 }
 
-.text-info {
+formSection .text-info {
   margin-left: 0 !important;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .list-unstyled a:hover {
