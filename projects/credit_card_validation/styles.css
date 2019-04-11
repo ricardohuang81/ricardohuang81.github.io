@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+    background-color: #fff;
+    color: forestgreen;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    color: deeppink;
+}
+
+#conditions {
+    text-align: left;
+    color: dodgerblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 18px;
+    overflow-wrap: normal;
+}
+
+.container {
+    margin-top: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.container label {
+    color: chocolate;
+}
+
+.container span {
+    margin: 0;
+}
+
+.container input {
+    border: 1px solid #000;
+}
+
+#clickMe {
+    border: 2px solid lime;
+    border-radius: 25px;
+}
+
+#clickMe:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    opacity: 0.8;
+}
+
+.container p {
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    height: 20px;
+    margin: 30px 100px;
+}

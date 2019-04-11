@@ -1,0 +1,97 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+}
+
+.page-header {
+    border-bottom: 1px solid dodgerblue;
+    font-weight: bold;
+    color: hotpink;
+    text-align: center;
+}
+
+#headerText:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#socialMedia {
+    text-align: center;
+}
+
+.IN-2bc0215c-7188-4274-b598-1969e06d4d7c-1G9ISYhSF8XoOmdcl0yKDu {
+    margin-bottom: 6px;
+}
+
+.col-md-8 {
+    text-align: center;
+    margin: 20px 15%;
+}
+
+.form-control {
+    border: 1px solid hotpink;
+    text-transform: uppercase;
+}
+
+.btn {
+    border: 1px solid hotpink;
+}
+
+ul {
+    text-align: left;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    width: 210px;
+    color: blue;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+#videos-list img {
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid honeydew;
+}
+
+#title {
+    font-size: 24px;
+    box-sizing: border-box;
+    width: 560px;
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#counter {
+    border: 2px solid violet;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+    body, ul {
+        text-align: center;
+    }
+    img {
+        display: inherit !important;
+        text-align: center;
+    }
+    #title {
+        display: inline-block;
+        text-align: center;
+    }
+}

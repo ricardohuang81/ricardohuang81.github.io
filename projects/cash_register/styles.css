@@ -1,0 +1,33 @@
+body {
+    background-color: lightpink;
+    font-family: monospace;
+    font-size: 32px;
+}
+
+h1 {
+    text-align: center;
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.grid > span {
+    padding: 8px 4px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background-color: yellow;
+}
+
+#total {
+    text-align: center;
+    background-color: snow;
+    border: 2px solid mediumslateblue;
+    color: darkslategray;
+}
