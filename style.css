@@ -10,12 +10,13 @@ body {
 }
 
 .nav-link {
+  font-size: 20px;
   color: #4682B4 !important;
 }
 
 .nav-link:hover {
   cursor: grab;
-  color: #000 !important;
+  color: #FFD700 !important;
 }
 
 .nav-link:active {
@@ -70,14 +71,13 @@ h1 a:active {
   padding: 0;
   margin: 0;
   background-color: #00FFFF;
-  height: 112px;
+  height: 124px;
 }
 
 #aboutMeText {
   font-size: 20px;
   margin: auto;
-  margin-bottom: 1rem;
-  width: 60%;
+  width: 70%;
 }
 
 #aboutMeText a {
@@ -95,7 +95,7 @@ h1 a:active {
   background-color: #40E0D0;
   border-radius: 25px;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
   height: 180px;
   width: 510px;
@@ -108,11 +108,13 @@ h1 a:active {
   }
   #spotifyContainer {
     border-radius: 10px;
-    width: 300px;
+    width: 220px;
+    height: 160px;
   }
   #spotifyPlayer {
     margin: auto;
-    width: 270px;
+    width: 200px;
+    height: 160px;
   }
 }
 
@@ -154,7 +156,7 @@ h1 a:active {
   margin: 0;
   margin-bottom: 5rem;
   padding: 0;
-  height: 112px;
+  height: 124px;
   background-color: #F4A460;
 }
 
@@ -176,7 +178,7 @@ a img:active {
   padding: 0;
   margin: 0;
   background-color: #DDA0DD;
-  height: 112px;
+  height: 124px;
   margin-bottom: 4rem;
 }
 
@@ -204,10 +206,11 @@ a img:active {
   padding: 0;
   margin: 0;
   background-color: #87CEFA;
-  height: 112px;
+  height: 124px;
 }
 
 .jumbotron {
+  background-color: #F0FFFF !important;
   padding: 2rem 0 !important;
   margin-bottom: 0 !important;
 }
@@ -282,7 +285,7 @@ p .lead {
   padding: 0;
   margin: 0;
   background-color: #FFC0CB;
-  height: 112px;
+  height: 124px;
   margin-bottom: 3rem;
 }
 
