@@ -116,24 +116,38 @@ h1 a:active {
   }
 }
 
-#carouselExampleFade{
+#carouselExampleFade {
   margin: auto;
-  width: 70%; 
+  width: 70%;
   margin-bottom: 5rem;
 }
 
-.d-block {
-  height: 100vh;
+.carousel-caption h5 {
+  margin: 1px 0;
+  text-align: left;
 }
 
 .carousel-caption p {
-  text-align: justify;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.carousel-caption p {
+  margin: 0;
+  width: 80%;
+  line-height: 1.25;
   font-family: 'Teko', sans-serif;
-  text-align: center;
+  text-align: left;  
+}
+
+.carousel-caption span {
+  background-color: #000;
+}
+
+@media (max-width: 1199px) {
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+
+.carousel-caption p {
+    width: 96%;
+    font-size: 14px;
+  }
 }
 
 #educationSection {
@@ -215,7 +229,7 @@ p .lead {
 }
 
 #shareIcons {
-  word-spacing: 10px;
+  word-spacing: 4px;
 }
 
 .item {
