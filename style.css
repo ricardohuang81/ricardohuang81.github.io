@@ -16,7 +16,7 @@ body {
 
 .nav-link:hover {
   cursor: grab;
-  color: #FFD700 !important;
+  color: #FFFF00 !important;
 }
 
 .nav-link:active {
@@ -37,6 +37,18 @@ body {
   }
   .navbar-toggler-icon:active {
     cursor: grabbing;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 414px) {
+  .nav-link {
+    font-size: 14px;
   }
 }
 
@@ -74,10 +86,38 @@ h1 a:active {
   height: 124px;
 }
 
+@media (max-width: 414px) {
+  #aboutSection h1{
+    font-size: 28px;
+  }
+}
+
 #aboutMeText {
   font-size: 20px;
   margin: auto;
   width: 70%;
+}
+
+@media (max-width: 767px) {
+  #aboutMeText {
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 414px) {
+  #aboutMeText {
+    font-size: 16px;
+  }
+  .pt-3 {
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 350px) {
+  #aboutMeText {
+    font-size: 14px;
+  }
 }
 
 #aboutMeText a {
@@ -160,6 +200,12 @@ h1 a:active {
   background-color: #F4A460;
 }
 
+@media (max-width: 414px) {
+  #educationSection h1{
+    font-size: 28px;
+  }
+}
+
 a img:hover {
   cursor: grab;
   opacity: 0.9;
@@ -167,6 +213,36 @@ a img:hover {
 
 a img:active {
   cursor: grabbing;
+}
+
+@media (max-width: 1133px) {
+  .col-md-8 .card-title {
+    font-size: 16px;
+  }
+  .list-group-flush {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-8 .card-body {
+    padding: 0 1.25rem !important;
+  }
+  .col-md-8 .card-title {
+    text-align: center;
+  }
+  .no-gutters .item {
+    margin-top: 0;
+    margin-left: 20%;
+    max-width: 60%;
+    height: auto;
+  }
+}
+
+@media (max-width: 414px) {
+  .list-group-item {
+    padding: 0.75rem 0 !important;
+  }
 }
 
 .card-title a:hover {
@@ -182,10 +258,26 @@ a img:active {
   margin-bottom: 4rem;
 }
 
+@media (max-width: 414px) {
+  #socialSection {
+    margin-bottom: 2rem;
+  }
+  #socialSection h1{
+    font-size: 28px;
+  }
+}
+
 #socialIcons {
   width: 44%;
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 414px) {
+  #socialIcons .col-sm-4 {
+    padding-bottom: 2rem !important;
+    margin-bottom: 0 !important;
+  }
 }
 
 #socialIcons a {
@@ -209,16 +301,46 @@ a img:active {
   height: 124px;
 }
 
+@media (max-width: 414px) {
+  #projectsSection h1{
+    font-size: 28px;
+  }
+}
+
 .jumbotron {
   background-color: #F0FFFF !important;
-  padding: 2rem 0 !important;
+  padding: 1rem 0 !important;
   margin-bottom: 0 !important;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .jumbotron {
+    margin: auto;
+    width: 70%;
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+  .jumbotron p {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 414px) {
+  .jumbotron {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .jumbotron p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .jumbotron p {
+    font-size: 14px;
   }
 }
 
@@ -235,6 +357,47 @@ p .lead {
   word-spacing: 4px;
 }
 
+album .col-md-4 {
+  height: 500px;
+}
+
+@media (max-width: 1199px) {
+  .album .card {
+    margin: auto;
+    width: 280px;
+  }
+  .album .card .item img {
+    height: 180px;
+  }
+  .album .card .card-body {
+    height: 260px;
+  }
+}
+
+@media (max-width: 991px) {
+  .album .card {
+    width: auto;
+  }
+  .album .card .item img {
+    height: 150px;
+  }
+  .album .card .card-body {
+    height: 260px;
+  }
+}
+
+@media (max-width: 767px) {
+  .album .card {
+    width: 300px;
+  }
+  .album .card .item img {
+    height: 180px;
+  }
+  .album .card .card-body {
+    height: auto;
+  }
+}
+
 .item {
   position: relative;  
   overflow: hidden;
@@ -248,7 +411,7 @@ p .lead {
 .item a:active {
   cursor: grabbing;
 }
-      
+
 .item img {
   max-width: 100%;  
   -moz-transition: all 0.3s;
@@ -259,7 +422,7 @@ p .lead {
 .col-md-4 .card .card-body {
   font-family: 'Roboto Condensed', sans-serif;
   padding-bottom: 0;
-  background-color: #FFF0F5;
+  background-color: #FFEBCD;
   border-top: 1px solid #17a2b8;
 }
 
@@ -273,7 +436,7 @@ p .lead {
 
 .btn-group a:hover {
   cursor: grab;
-  color: rgb(242, 133, 142);
+  color: #FF4500;
   font-size: 18px;
 }
 
@@ -289,12 +452,18 @@ p .lead {
   margin-bottom: 3rem;
 }
 
+@media (max-width: 414px) {
+  #contactSection h1{
+    font-size: 28px;
+  }
+}
+
 #formSection {
   margin: auto;
   width: 70%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #name {
     margin-bottom: 1rem;
   }
@@ -338,3 +507,4 @@ footer a:hover {
 footer a:active {
   cursor: grabbing;
 }
+
