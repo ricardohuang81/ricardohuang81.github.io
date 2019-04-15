@@ -133,6 +133,7 @@ h1 a:active {
 
 #spotifyContainer {
   padding: 0;
+  opacity: 0.8;
   background-color: #40E0D0;
   border-radius: 25px;
   margin: auto;
@@ -163,6 +164,11 @@ h1 a:active {
   margin: auto;
   width: 63%;
   margin-bottom: 5rem;
+}
+
+.carousel-item img:hover {
+  cursor: grab;
+  opacity: 0.8;
 }
 
 .carousel-caption h5 {
@@ -199,6 +205,14 @@ h1 a:active {
   padding: 0;
   height: 124px;
   background-color: #F4A460;
+}
+
+.no-gutters img:hover {
+  cursor: grab;
+}
+
+.no-gutters img:active {
+  cursor: grabbing;
 }
 
 @media (max-width: 414px) {
@@ -530,8 +544,8 @@ footer {
   height: 140px;
 }
 
-footer .mb-3{
-  color: #000;
+footer .mb-3 {
+  color: #fff;
 }
 
 footer a {
@@ -547,4 +561,3 @@ footer a:hover {
 footer a:active {
   cursor: grabbing;
 }
-
