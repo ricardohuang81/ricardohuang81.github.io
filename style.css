@@ -95,10 +95,11 @@ h1 a:active {
 #aboutMeText {
   font-size: 20px;
   margin: auto;
-  width: 70%;
+  margin-bottom: 2rem;
+  width: 63%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #aboutMeText {
     font-size: 18px;
     margin-bottom: 2rem;
@@ -160,7 +161,7 @@ h1 a:active {
 
 #carouselExampleFade {
   margin: auto;
-  width: 70%;
+  width: 63%;
   margin-bottom: 5rem;
 }
 
@@ -204,15 +205,6 @@ h1 a:active {
   #educationSection h1{
     font-size: 28px;
   }
-}
-
-a img:hover {
-  cursor: grab;
-  opacity: 0.9;
-}
-
-a img:active {
-  cursor: grabbing;
 }
 
 @media (max-width: 1133px) {
@@ -287,7 +279,7 @@ a img:active {
 #socialIcons a:hover {
   cursor: grab;
   color: #DDA0DD;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 #socialIcons a:active {
@@ -357,45 +349,90 @@ p .lead {
   word-spacing: 4px;
 }
 
-album .col-md-4 {
-  height: 500px;
+.album {
+  margin-bottom: 3rem;
+}
+
+.album .container {
+  padding: 0;
+  margin: auto;
+  width: 63%;
+}
+
+.album .card {
+  height: 480px;
+}
+
+.album .col-md-4 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1329px) {
+  .album .container {
+    width: 68%;
+  }
+  .album .col-md-4 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .album .col-md-4 .card {
+    height: 460px;
+  }
+  .album .item {
+    height: 200px;
+  }
 }
 
 @media (max-width: 1199px) {
-  .album .card {
-    margin: auto;
-    width: 280px;
+  .album .container {
+    width: 74%;
   }
-  .album .card .item img {
+  .album .col-md-4 .card {
+    width: 240px;
+    height: 440px;
+  }
+  .album .item {
     height: 180px;
-  }
-  .album .card .card-body {
-    height: 260px;
   }
 }
 
 @media (max-width: 991px) {
-  .album .card {
-    width: auto;
+  .album .container {
+    width: 80% !important;
   }
-  .album .card .item img {
-    height: 150px;
+  .album .col-md-4 .card {
+    width: 200px;
+    height: 420px;
   }
-  .album .card .card-body {
-    height: 260px;
+  .album .item {
+    height: 140px;
+  }
+}
+
+@media (max-width: 907px) {
+  .album .container {
+    width: 100% !important;
   }
 }
 
 @media (max-width: 767px) {
-  .album .card {
+  .album .col-md-4 .card {
     width: 300px;
+    height: 400px;
+    margin: auto;
   }
-  .album .card .item img {
-    height: 180px;
+  .album .item {
+    height: 220px;
   }
-  .album .card .card-body {
-    height: auto;
-  }
+}
+
+.album .col-md-4 a:hover {
+  cursor: grab;
+  opacity: 0.8;
+}
+
+.album .col-md-4 a:active {
+  cursor: grabbing;
 }
 
 .item {
@@ -419,10 +456,10 @@ album .col-md-4 {
   transition: all 0.3s;
 }
 
-.col-md-4 .card .card-body {
+.col-md-4 .card-body {
   font-family: 'Roboto Condensed', sans-serif;
-  padding-bottom: 0;
-  background-color: #FFEBCD;
+  padding-bottom: 1rem;
+  background-color: #FAF0E6;
   border-top: 1px solid #17a2b8;
 }
 
@@ -460,7 +497,7 @@ album .col-md-4 {
 
 #formSection {
   margin: auto;
-  width: 70%;
+  width: 63%;
 }
 
 @media (max-width: 767px) {
@@ -472,13 +509,12 @@ album .col-md-4 {
   }
 }
 
-formSection .text-info {
-  margin-left: 0 !important;
-  font-size: 18px;
+#formSection {
+  font-family: 'Teko', sans-serif;
 }
 
 .list-unstyled a:hover {
-  color: #FF69B4;
+  color: #FFD700;
   cursor: grab;
   font-size: 18px;
 }
@@ -490,18 +526,22 @@ formSection .text-info {
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #000;
+  background-color: rgb(242, 133, 142);
   height: 140px;
 }
 
+footer .mb-3{
+  color: #000;
+}
+
 footer a {
-  color: #17a2b8
+  color: #4682B4;
 }
 
 footer a:hover {
   cursor: grab;
   text-decoration: none;
-  color: #FF69B4;
+  color: #FFFF00;
 }
 
 footer a:active {
