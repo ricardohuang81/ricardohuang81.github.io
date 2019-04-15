@@ -58,7 +58,7 @@ a .fa-chevron-up, a .fa-chevron-down {
 
 a .fa-chevron-up:hover, a .fa-chevron-down:hover {
   cursor: grab;
-  color: #4682B4 !important;
+  color: #FFFF00 !important;
 }
 
 a .fa-chevron-up:active, a .fa-chevron-down:active {
@@ -373,6 +373,11 @@ p .lead {
   width: 63%;
 }
 
+.album .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .album .card {
   height: 480px;
 }
@@ -383,7 +388,7 @@ p .lead {
 
 @media (max-width: 1329px) {
   .album .container {
-    width: 68%;
+    width: 70%;
   }
   .album .col-md-4 {
     padding-right: 25px;
@@ -399,39 +404,49 @@ p .lead {
 
 @media (max-width: 1199px) {
   .album .container {
-    width: 74%;
+    width: 80%;
   }
+  
   .album .col-md-4 .card {
-    width: 240px;
+    width: 220px;
     height: 440px;
   }
   .album .item {
-    height: 180px;
+    height: 160px;
   }
 }
 
 @media (max-width: 991px) {
   .album .container {
-    width: 80% !important;
+    max-width: 100%;
   }
   .album .col-md-4 .card {
     width: 200px;
-    height: 420px;
+    height: 440px;
   }
   .album .item {
-    height: 140px;
+    height: 170px;
+  }
+  .album p {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 907px) {
+  #aboutMeText {
+    font-size: 16px;
+  }
+  .jumbotron p {
+    font-size: 16px;
+  }
   .album .container {
-    width: 100% !important;
+    width: 82%;
   }
 }
 
 @media (max-width: 767px) {
   .album .col-md-4 .card {
-    width: 300px;
+    width: 280px;
     height: 400px;
     margin: auto;
   }
