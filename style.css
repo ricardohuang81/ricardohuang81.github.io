@@ -542,6 +542,13 @@ p .lead {
   font-family: 'Teko', sans-serif;
 }
 
+#formSection .text-md-left input {
+  color: #fff;
+  width: 60px;
+  padding-top: 5px;
+  background-color: #28a745;
+}
+
 .list-unstyled a:hover {
   color: #FFD700;
   cursor: grab;
