@@ -777,6 +777,9 @@
     <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
+
+
+
       $("document").ready(function () {
         $('body').scrollspy({ target: ".navbar", offset: 50 });
 
@@ -835,6 +838,17 @@
           $('[data-toggle="tooltip"]').tooltip()
         });
 
+      });
+
+      function validateForm() {
+        document.getElementById('status').innerHTML = "Sending...";
+        formData = {
+          'name': $('input[name=name]').val(),
+          'email': $('input[name=email]').val(),
+          'subject': $('input[name=subject]').val(),
+          'message': $('textarea[name=message]').val()
+        };
+
         $.ajax({
           url: "mail.php",
           type: "POST",
@@ -849,23 +863,8 @@
             $('#status').text(jqXHR);
           }
         });
-
-      })
-
-    </script>
-    
-    <script>
-      function validateForm() {
-        document.getElementById('status').innerHTML = "Sending...";
-        formData = {
-          'name': $('input[name=name]').val(),
-          'email': $('input[name=email]').val(),
-          'subject': $('input[name=subject]').val(),
-          'message': $('textarea[name=message]').val()
-        };
-
-        
       }
+      
     </script>
 
   </body>
