@@ -391,8 +391,8 @@ p .lead {
     width: 70%;
   }
   .album .col-md-4 {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 5%;
+    padding-left: 5%;
   }
   .album .col-md-4 .card {
     height: 460px;
@@ -406,7 +406,6 @@ p .lead {
   .album .container {
     width: 80%;
   }
-  
   .album .col-md-4 .card {
     width: 220px;
     height: 440px;
@@ -452,6 +451,41 @@ p .lead {
   }
   .album .item {
     height: 220px;
+  }
+}
+
+@media (max-width: 375px) {
+  .album .col-md-4 .card {
+    width: 200px;
+    height: 360px;
+    margin: auto;
+  }
+  .album .item {
+    height: 160px;
+  }
+  .album p {
+    font-size: 12px;
+  }
+  #formSection p {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 270px) {
+  .album .col-md-4 .card {
+    width: 100px;
+    height: 300px;
+    margin: auto;
+    padding: 0 !important;
+  }
+  .album .item {
+    height: 120px;
+  }
+  .ablum .card-body a {
+    font-size: 0rem;
+  }
+  .album p {
+    font-size: 8px;
   }
 }
 
