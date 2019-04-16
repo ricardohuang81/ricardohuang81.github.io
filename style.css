@@ -274,9 +274,13 @@ h1 a:active {
 }
 
 #socialIcons {
-  width: 44%;
+  width: 63%;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+#iconRows .col-sm-4{
+  margin-bottom: 6rem;
 }
 
 @media (max-width: 414px) {
@@ -286,17 +290,16 @@ h1 a:active {
   }
 }
 
-#socialIcons a {
+#socialIcons i {
   color: #000;
 }
 
-#socialIcons a:hover {
+#socialIcons i:hover {
   cursor: grab;
-  color: #DDA0DD;
-  font-size: 2.5rem;
+  color: #DDA0DD !important;
 }
 
-#socialIcons a:active {
+#socialIcons i:active {
   cursor: grabbing;
 }
 
