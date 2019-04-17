@@ -176,8 +176,8 @@ h1 a:active {
     padding-left: 0 !important;
   }
   #spotifyContainer {
-    border-radius: 10px;
-    width: 220px;
+    border-radius: 0;
+    width: 190px;
     height: 180px;
   }
   #spotifyPlayer {
@@ -193,8 +193,8 @@ h1 a:active {
     padding-left: 0 !important;
   }
   #spotifyContainer {
-    border-radius: 10px;
-    width: 200px;
+    border-radius: 0;
+    width: 160px;
     height: 180px;
   }
   #spotifyPlayer {
