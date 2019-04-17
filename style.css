@@ -123,12 +123,16 @@ h1 a:active {
 
 #aboutMeText a {
   text-decoration: none;
-  color: #6A5ACD;
+  /* color: #6A5ACD; */
 }
 
 #aboutMeText a:hover {
-  cursor: grab;
-  color: #663399;
+  opacity: 0.8;
+}
+
+.col-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 #spotifyContainer {
@@ -139,11 +143,34 @@ h1 a:active {
   margin: auto;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  height: 180px;
+  height: 200px;
   width: 510px;
 }
 
-@media (max-width: 688px) {
+#spotifyPlayer {
+  margin: auto;
+  height: 200px;
+  width: 450px;
+}
+
+@media (max-width: 813px) {
+  .col-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #spotifyContainer {
+    border-radius: 10px;
+    width: 280px;
+    height: 180px;
+  }
+  #spotifyPlayer {
+    margin: auto;
+    width: 240px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 437px) {
   .col-12 {
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -151,12 +178,29 @@ h1 a:active {
   #spotifyContainer {
     border-radius: 10px;
     width: 220px;
-    height: 160px;
+    height: 180px;
   }
   #spotifyPlayer {
     margin: auto;
+    width: 190px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 375px) {
+  .col-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #spotifyContainer {
+    border-radius: 10px;
     width: 200px;
-    height: 160px;
+    height: 180px;
+  }
+  #spotifyPlayer {
+    margin: auto;
+    width: 160px;
+    height: 180px;
   }
 }
 
@@ -270,6 +314,12 @@ h1 a:active {
   }
   #socialSection h1{
     font-size: 28px;
+  }
+}
+
+@media (max-width: 375px) {
+  #socialSection h1{
+    font-size: 24px;
   }
 }
 
