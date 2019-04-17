@@ -130,10 +130,10 @@ h1 a:active {
   opacity: 0.8;
 }
 
-.col-12 {
+/* .col-12 {
   padding-left: 0 !important;
   padding-right: 0 !important;
-}
+} */
 
 #spotifyContainer {
   padding: 0;
@@ -154,10 +154,10 @@ h1 a:active {
 }
 
 @media (max-width: 813px) {
-  .col-12 {
+  /* .col-12 {
     padding-right: 0 !important;
     padding-left: 0 !important;
-  }
+  } */
   #spotifyContainer {
     border-radius: 10px;
     width: 280px;
@@ -171,10 +171,10 @@ h1 a:active {
 }
 
 @media (max-width: 437px) {
-  .col-12 {
+  /* .col-12 {
     padding-right: 0 !important;
     padding-left: 0 !important;
-  }
+  } */
   #spotifyContainer {
     border-radius: 0;
     width: 190px;
@@ -188,10 +188,10 @@ h1 a:active {
 }
 
 @media (max-width: 375px) {
-  .col-12 {
+  /* .col-12 {
     padding-right: 0 !important;
     padding-left: 0 !important;
-  }
+  } */
   #spotifyContainer {
     border-radius: 0;
     width: 160px;
