@@ -420,7 +420,11 @@ p .lead {
 }
 
 .album .card {
-  height: 480px;
+  height: 500px;
+}
+
+.album .item {
+  height: 220px;
 }
 
 .album .col-md-4 {
