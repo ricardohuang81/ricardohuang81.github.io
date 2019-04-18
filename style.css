@@ -123,7 +123,6 @@ h1 a:active {
 
 #aboutMeText a {
   text-decoration: none;
-  /* color: #6A5ACD; */
 }
 
 #aboutMeText a:hover {
@@ -194,8 +193,8 @@ h1 a:active {
 
 #carouselExampleFade {
   margin: auto;
+  margin-bottom: 1rem;
   width: 63%;
-  margin-bottom: 5rem;
 }
 
 .carousel-item img:hover {
@@ -227,6 +226,24 @@ h1 a:active {
 
 .carousel-caption p {
     width: 96%;
+    font-size: 14px;
+  }
+}
+
+#disclaimer {
+  margin: auto;
+  padding: 0;
+  width: 63%;
+  margin-bottom: 5rem;
+}
+
+#disclaimer span {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  #disclaimer {
+    width: 60%;
     font-size: 14px;
   }
 }
