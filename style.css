@@ -440,7 +440,7 @@ p .lead {
   height: 500px;
 }
 
-.album .item {
+.album .item img {
   height: 220px;
 }
 
@@ -459,7 +459,7 @@ p .lead {
   .album .col-md-4 .card {
     height: 460px;
   }
-  .album .item {
+  .album .item img {
     height: 200px;
   }
 }
@@ -472,7 +472,7 @@ p .lead {
     width: 220px;
     height: 440px;
   }
-  .album .item {
+  .album .item img {
     height: 160px;
   }
 }
@@ -485,7 +485,7 @@ p .lead {
     width: 200px;
     height: 440px;
   }
-  .album .item {
+  .album .item img {
     height: 170px;
   }
   .album p {
@@ -511,7 +511,7 @@ p .lead {
     height: 400px;
     margin: auto;
   }
-  .album .item {
+  .album .item img {
     height: 220px;
   }
 }
@@ -522,7 +522,7 @@ p .lead {
     height: 360px;
     margin: auto;
   }
-  .album .item {
+  .album .item img {
     height: 160px;
   }
   .album p {
@@ -540,7 +540,7 @@ p .lead {
     margin: auto;
     padding: 0 !important;
   }
-  .album .item {
+  .album .item img {
     height: 120px;
   }
   .ablum .card-body a {
@@ -648,7 +648,6 @@ p .lead {
 .list-unstyled a:hover {
   color: #FFD700;
   cursor: grab;
-  font-size: 18px;
 }
 
 .list-unstyled a:active {
