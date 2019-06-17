@@ -36,7 +36,7 @@
             </li>
 
             <li class="nav-item px-5 mx-3">
-              <a class="nav-link" href="#socialSection">Social + Resume</a>
+              <a class="nav-link" href="#socialSection">Social</a>
             </li>
 
             <li class="nav-item px-5 mx-3">
@@ -797,6 +797,11 @@
     <script>
 
       $("document").ready(function () {
+        
+        $(document).on('click', function() {
+          $('.collapse').collapse('hide');
+        })
+
         $('body').scrollspy({ target: ".navbar", offset: 50 });
 
         // Add smooth scrolling on all links inside the navbar
