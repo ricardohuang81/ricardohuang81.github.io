@@ -182,7 +182,7 @@ h1 a:active {
 
 @media (max-width: 375px) {
   #spotifyContainer {
-    margin-left: 21%;
+    margin-left: 18%;
     width: 234px;
   }
   #spotifyPlayer {
