@@ -11,7 +11,8 @@ body {
 
 .nav-link {
   font-size: 20px;
-  color: #4682B4 !important;
+  color: #4169E1 !important;
+  /* color: #4682B4 !important; */
 }
 
 .nav-link:hover {
@@ -220,7 +221,7 @@ h1 a:active {
   width: 80%;
   line-height: 1.25;
   font-family: 'Teko', sans-serif;
-  text-align: left;  
+  text-align: left;
 }
 
 .carousel-caption span {
@@ -261,7 +262,7 @@ h1 a:active {
   margin-bottom: 5rem;
   padding: 0;
   height: 124px;
-  background-color: #F4A460;
+  background-color: #FFD700;
 }
 
 .no-gutters img:hover {
@@ -316,7 +317,7 @@ h1 a:active {
 #socialSection {
   padding: 0;
   margin: 0;
-  background-color: #DDA0DD;
+  background-color: #4682B4;
   height: 124px;
   margin-bottom: 4rem;
 }
@@ -569,7 +570,7 @@ p .lead {
 }
 
 .item {
-  position: relative;  
+  position: relative;
   overflow: hidden;
   width: 100%;
 }
@@ -583,7 +584,7 @@ p .lead {
 }
 
 .item img {
-  max-width: 100%;  
+  max-width: 100%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -617,7 +618,7 @@ p .lead {
 #contactSection {
   padding: 0;
   margin: 0;
-  background-color: #FFC0CB;
+  background-color: #AFEEEE;
   height: 124px;
   margin-bottom: 3rem;
 }
@@ -665,7 +666,7 @@ p .lead {
 footer {
   padding-top: 1rem;
   padding-bottom: 3rem;
-  background-color: rgb(242, 133, 142);
+  background-color: #F08080;
   height: 140px;
 }
 
