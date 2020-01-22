@@ -6,13 +6,12 @@
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
-  background-color: #F0FFFF !important;
+  background-color: #fff !important;
 }
 
 .nav-link {
   font-size: 20px;
   color: #4169E1 !important;
-  /* color: #4682B4 !important; */
 }
 
 .nav-link:hover {
@@ -72,7 +71,7 @@ h1 a {
 
 h1 a:hover {
   cursor: grab;
-  color: #7B68EE;
+  color: #FF00FF;
   text-decoration: none;
 }
 
@@ -80,7 +79,7 @@ h1 a:active {
   cursor: grabbing;
 }
 
-#aboutSection {
+#meSection {
   padding: 0;
   margin: 0;
   background-color: #00FFFF;
@@ -88,12 +87,12 @@ h1 a:active {
 }
 
 @media (max-width: 414px) {
-  #aboutSection h1{
+  #meSection h1{
     font-size: 28px;
   }
 }
 
-#aboutMeText {
+#meText {
   font-size: 20px;
   margin: auto;
   margin-bottom: 2rem;
@@ -101,14 +100,14 @@ h1 a:active {
 }
 
 @media (max-width: 768px) {
-  #aboutMeText {
+  #meText {
     font-size: 18px;
     margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 414px) {
-  #aboutMeText {
+  #meText {
     text-align: left !important;
     font-size: 16px;
   }
@@ -118,16 +117,16 @@ h1 a:active {
 }
 
 @media (max-width: 350px) {
-  #aboutMeText {
+  #meText {
     font-size: 14px;
   }
 }
 
-#aboutMeText a {
+#meText a {
   text-decoration: none;
 }
 
-#aboutMeText a:hover {
+#meText a:hover {
   opacity: 0.8;
 }
 
@@ -203,12 +202,25 @@ h1 a:active {
 #carouselExampleFade {
   margin: auto;
   margin-bottom: 1rem;
-  width: 63%;
 }
 
-.carousel-item img:hover {
-  cursor: grab;
-  opacity: 0.8;
+.carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;
+  background-attachment: fixed;
+}
+
+.carousel-inner:hover {
+  opacity: 0.9;
+}
+
+.carousel-caption {
+  cursor: pointer;
 }
 
 .carousel-caption h5 {
@@ -218,7 +230,7 @@ h1 a:active {
 
 .carousel-caption p {
   margin: 0;
-  width: 80%;
+  width: 69%;
   line-height: 1.25;
   font-family: 'Teko', sans-serif;
   text-align: left;
@@ -242,6 +254,7 @@ h1 a:active {
 #disclaimer {
   margin: auto;
   padding: 0;
+  color: #FF00FF;
   width: 63%;
   margin-bottom: 5rem;
 }
@@ -503,7 +516,7 @@ p .lead {
 }
 
 @media (max-width: 907px) {
-  #aboutMeText {
+  #meText {
     font-size: 16px;
   }
   .jumbotron p {
@@ -670,16 +683,16 @@ footer {
   height: 140px;
 }
 
-footer .mb-3 {
-  color: #fff;
+footer p {
+  color: #AFEEEE;
 }
 
 footer a {
-  color: #4682B4;
+  color: #4169E1;
 }
 
 footer a:hover {
-  cursor: grab;
+  cursor: pointer;
   text-decoration: none;
   color: #FFFF00;
 }
