@@ -10,7 +10,7 @@ body {
 }
 
 .nav-link {
-  font-size: 20px;
+  font-size: 24px;
   color: #4169E1 !important;
 }
 
@@ -82,8 +82,8 @@ h1 a:active {
 #meSection {
   padding: 0;
   margin: 0;
-  background-color: #00FFFF;
-  height: 124px;
+  background-color: #7B68EE	;
+  height: 134px;
 }
 
 @media (max-width: 414px) {
@@ -270,121 +270,11 @@ h1 a:active {
   }
 }
 
-#educationSection {
-  margin: 0;
-  margin-bottom: 5rem;
-  padding: 0;
-  height: 124px;
-  background-color: #FFD700;
-}
-
-.no-gutters img:hover {
-  cursor: grab;
-}
-
-.no-gutters img:active {
-  cursor: grabbing;
-}
-
-@media (max-width: 414px) {
-  #educationSection h1{
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 1133px) {
-  .col-md-8 .card-title {
-    font-size: 16px;
-  }
-  .list-group-flush {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 767px) {
-  .col-md-8 .card-body {
-    padding: 0 1.25rem !important;
-  }
-  .col-md-8 .card-title {
-    text-align: center;
-  }
-  .no-gutters .item {
-    margin-top: 0;
-    margin-left: 20%;
-    max-width: 60%;
-    height: auto;
-  }
-}
-
-@media (max-width: 414px) {
-  .list-group-item {
-    padding: 0.75rem 0 !important;
-  }
-}
-
-.card-title a:hover {
-  text-decoration: none;
-  color: #F4A460;
-}
-
-#socialSection {
-  padding: 0;
-  margin: 0;
-  background-color: #4682B4;
-  height: 124px;
-  margin-bottom: 4rem;
-}
-
-@media (max-width: 414px) {
-  #socialSection {
-    margin-bottom: 2rem;
-  }
-  #socialSection h1{
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 375px) {
-  #socialSection h1{
-    font-size: 24px;
-  }
-}
-
-#socialIcons {
-  width: 63%;
-  font-size: 2rem;
-  margin-bottom: 4rem;
-}
-
-#iconRows .col-sm-4{
-  margin-bottom: 6rem;
-}
-
-@media (max-width: 414px) {
-  #socialIcons .col-sm-4 {
-    padding-bottom: 2rem !important;
-    margin-bottom: 0 !important;
-  }
-}
-
-#socialIcons i {
-  color: #000;
-}
-
-#socialIcons i:hover {
-  cursor: grab;
-  color: #DDA0DD !important;
-}
-
-#socialIcons i:active {
-  cursor: grabbing;
-}
-
 #projectsSection {
   padding: 0;
   margin: 0;
   background-color: #87CEFA;
-  height: 124px;
+  height: 134px;
 }
 
 @media (max-width: 414px) {
@@ -470,6 +360,11 @@ p .lead {
   margin-bottom: 1rem;
 }
 
+
+p.card-text.text-center {
+  font-size: 13px !important;
+}
+
 @media (max-width: 1329px) {
   .album .container {
     width: 70%;
@@ -510,8 +405,8 @@ p .lead {
   .album .item img {
     height: 170px;
   }
-  .album p {
-    font-size: 14px;
+  p.card-text.text-center {
+    font-size: 11px !important;
   }
 }
 
@@ -546,9 +441,6 @@ p .lead {
   }
   .album .item img {
     height: 160px;
-  }
-  .album p {
-    font-size: 12px;
   }
   #formSection p {
     font-size: 14px !important;
@@ -604,7 +496,7 @@ p .lead {
 }
 
 .col-md-4 .card-body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'PT Mono', monospace;
   padding-bottom: 1rem;
   background-color: #FAF0E6;
   border-top: 1px solid #17a2b8;
@@ -614,7 +506,7 @@ p .lead {
   padding-bottom: 1rem;
 }
 
-.btn-group a{
+.btn-group a {
   color: #007bff
 }
 
@@ -632,7 +524,7 @@ p .lead {
   padding: 0;
   margin: 0;
   background-color: #AFEEEE;
-  height: 124px;
+  height: 134px;
   margin-bottom: 3rem;
 }
 
@@ -657,29 +549,29 @@ p .lead {
 }
 
 #formSection {
-  font-family: 'Teko', sans-serif;
+  font-family: 'PT Mono', monospace;
 }
 
 #formSection .text-md-left input {
   color: #fff;
-  width: 60px;
-  padding-top: 5px;
+  width: 80px;
+  padding: 5px;
   background-color: #28a745;
 }
 
-.list-unstyled a:hover {
-  color: #FFD700;
-  cursor: grab;
+.list-unstyled li a {
+  color: #4169E1;
 }
 
-.list-unstyled a:active {
-  cursor: grabbing;
+.list-unstyled a:hover {
+  color: #FF00FF;
+  cursor: pointer;
 }
 
 footer {
   padding-top: 1rem;
   padding-bottom: 3rem;
-  background-color: #F08080;
+  background-color: #4682B4;
   height: 140px;
 }
 
@@ -688,7 +580,7 @@ footer p {
 }
 
 footer a {
-  color: #4169E1;
+  color: #FFC0CB;
 }
 
 footer a:hover {
