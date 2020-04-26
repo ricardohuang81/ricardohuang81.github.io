@@ -6,12 +6,12 @@
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
-  background-color: #F0FFFF !important;
+  background-color: #fff !important;
 }
 
 .nav-link {
-  font-size: 20px;
-  color: #4682B4 !important;
+  font-size: 24px;
+  color: #4169E1 !important;
 }
 
 .nav-link:hover {
@@ -71,7 +71,7 @@ h1 a {
 
 h1 a:hover {
   cursor: grab;
-  color: #7B68EE;
+  color: #FF00FF;
   text-decoration: none;
 }
 
@@ -79,20 +79,20 @@ h1 a:active {
   cursor: grabbing;
 }
 
-#aboutSection {
+#meSection {
   padding: 0;
   margin: 0;
-  background-color: #00FFFF;
-  height: 124px;
+  background-color: #7B68EE	;
+  height: 134px;
 }
 
 @media (max-width: 414px) {
-  #aboutSection h1{
+  #meSection h1{
     font-size: 28px;
   }
 }
 
-#aboutMeText {
+#meText {
   font-size: 20px;
   margin: auto;
   margin-bottom: 2rem;
@@ -100,14 +100,14 @@ h1 a:active {
 }
 
 @media (max-width: 768px) {
-  #aboutMeText {
+  #meText {
     font-size: 18px;
     margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 414px) {
-  #aboutMeText {
+  #meText {
     text-align: left !important;
     font-size: 16px;
   }
@@ -117,16 +117,16 @@ h1 a:active {
 }
 
 @media (max-width: 350px) {
-  #aboutMeText {
+  #meText {
     font-size: 14px;
   }
 }
 
-#aboutMeText a {
+#meText a {
   text-decoration: none;
 }
 
-#aboutMeText a:hover {
+#meText a:hover {
   opacity: 0.8;
 }
 
@@ -202,12 +202,25 @@ h1 a:active {
 #carouselExampleFade {
   margin: auto;
   margin-bottom: 1rem;
-  width: 63%;
 }
 
-.carousel-item img:hover {
-  cursor: grab;
-  opacity: 0.8;
+.carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;
+  background-attachment: fixed;
+}
+
+.carousel-inner:hover {
+  opacity: 0.9;
+}
+
+.carousel-caption {
+  cursor: pointer;
 }
 
 .carousel-caption h5 {
@@ -217,10 +230,10 @@ h1 a:active {
 
 .carousel-caption p {
   margin: 0;
-  width: 80%;
+  width: 69%;
   line-height: 1.25;
   font-family: 'Teko', sans-serif;
-  text-align: left;  
+  text-align: left;
 }
 
 .carousel-caption span {
@@ -241,6 +254,7 @@ h1 a:active {
 #disclaimer {
   margin: auto;
   padding: 0;
+  color: #FF00FF;
   width: 63%;
   margin-bottom: 5rem;
 }
@@ -256,121 +270,11 @@ h1 a:active {
   }
 }
 
-#educationSection {
-  margin: 0;
-  margin-bottom: 5rem;
-  padding: 0;
-  height: 124px;
-  background-color: #F4A460;
-}
-
-.no-gutters img:hover {
-  cursor: grab;
-}
-
-.no-gutters img:active {
-  cursor: grabbing;
-}
-
-@media (max-width: 414px) {
-  #educationSection h1{
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 1133px) {
-  .col-md-8 .card-title {
-    font-size: 16px;
-  }
-  .list-group-flush {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 767px) {
-  .col-md-8 .card-body {
-    padding: 0 1.25rem !important;
-  }
-  .col-md-8 .card-title {
-    text-align: center;
-  }
-  .no-gutters .item {
-    margin-top: 0;
-    margin-left: 20%;
-    max-width: 60%;
-    height: auto;
-  }
-}
-
-@media (max-width: 414px) {
-  .list-group-item {
-    padding: 0.75rem 0 !important;
-  }
-}
-
-.card-title a:hover {
-  text-decoration: none;
-  color: #F4A460;
-}
-
-#socialSection {
-  padding: 0;
-  margin: 0;
-  background-color: #DDA0DD;
-  height: 124px;
-  margin-bottom: 4rem;
-}
-
-@media (max-width: 414px) {
-  #socialSection {
-    margin-bottom: 2rem;
-  }
-  #socialSection h1{
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 375px) {
-  #socialSection h1{
-    font-size: 24px;
-  }
-}
-
-#socialIcons {
-  width: 63%;
-  font-size: 2rem;
-  margin-bottom: 4rem;
-}
-
-#iconRows .col-sm-4{
-  margin-bottom: 6rem;
-}
-
-@media (max-width: 414px) {
-  #socialIcons .col-sm-4 {
-    padding-bottom: 2rem !important;
-    margin-bottom: 0 !important;
-  }
-}
-
-#socialIcons i {
-  color: #000;
-}
-
-#socialIcons i:hover {
-  cursor: grab;
-  color: #DDA0DD !important;
-}
-
-#socialIcons i:active {
-  cursor: grabbing;
-}
-
 #projectsSection {
   padding: 0;
   margin: 0;
   background-color: #87CEFA;
-  height: 124px;
+  height: 134px;
 }
 
 @media (max-width: 414px) {
@@ -456,6 +360,11 @@ p .lead {
   margin-bottom: 1rem;
 }
 
+
+p.card-text.text-center {
+  font-size: 13px !important;
+}
+
 @media (max-width: 1329px) {
   .album .container {
     width: 70%;
@@ -496,13 +405,13 @@ p .lead {
   .album .item img {
     height: 170px;
   }
-  .album p {
-    font-size: 14px;
+  p.card-text.text-center {
+    font-size: 11px !important;
   }
 }
 
 @media (max-width: 907px) {
-  #aboutMeText {
+  #meText {
     font-size: 16px;
   }
   .jumbotron p {
@@ -532,9 +441,6 @@ p .lead {
   }
   .album .item img {
     height: 160px;
-  }
-  .album p {
-    font-size: 12px;
   }
   #formSection p {
     font-size: 14px !important;
@@ -569,7 +475,7 @@ p .lead {
 }
 
 .item {
-  position: relative;  
+  position: relative;
   overflow: hidden;
   width: 100%;
 }
@@ -583,14 +489,14 @@ p .lead {
 }
 
 .item img {
-  max-width: 100%;  
+  max-width: 100%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .col-md-4 .card-body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'PT Mono', monospace;
   padding-bottom: 1rem;
   background-color: #FAF0E6;
   border-top: 1px solid #17a2b8;
@@ -600,7 +506,7 @@ p .lead {
   padding-bottom: 1rem;
 }
 
-.btn-group a{
+.btn-group a {
   color: #007bff
 }
 
@@ -617,8 +523,8 @@ p .lead {
 #contactSection {
   padding: 0;
   margin: 0;
-  background-color: #FFC0CB;
-  height: 124px;
+  background-color: #AFEEEE;
+  height: 134px;
   margin-bottom: 3rem;
 }
 
@@ -643,42 +549,42 @@ p .lead {
 }
 
 #formSection {
-  font-family: 'Teko', sans-serif;
+  font-family: 'PT Mono', monospace;
 }
 
 #formSection .text-md-left input {
   color: #fff;
-  width: 60px;
-  padding-top: 5px;
+  width: 80px;
+  padding: 5px;
   background-color: #28a745;
 }
 
-.list-unstyled a:hover {
-  color: #FFD700;
-  cursor: grab;
+.list-unstyled li a {
+  color: #4169E1;
 }
 
-.list-unstyled a:active {
-  cursor: grabbing;
+.list-unstyled a:hover {
+  color: #FF00FF;
+  cursor: pointer;
 }
 
 footer {
   padding-top: 1rem;
   padding-bottom: 3rem;
-  background-color: rgb(242, 133, 142);
+  background-color: #4682B4;
   height: 140px;
 }
 
-footer .mb-3 {
-  color: #fff;
+footer p {
+  color: #AFEEEE;
 }
 
 footer a {
-  color: #4682B4;
+  color: #FFC0CB;
 }
 
 footer a:hover {
-  cursor: grab;
+  cursor: pointer;
   text-decoration: none;
   color: #FFFF00;
 }

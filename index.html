@@ -9,58 +9,35 @@
     <link rel="icon" href="assets/favicon/daredevil.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <title>Ricky Huang 🐙</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Teko&display=swap" rel="stylesheet">
+    <title>Ricky Huang 🌻🌍🐙</title>
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light justify-content-center" style="background-color: rgb(242, 133, 142);">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-fill" style="background-color: #F08080;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNavDropdown">
-          <ul class="navbar-nav justify-content-between">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <a class="nav-item nav-link active" href="#meSection">Me</a>
 
-            <li class="nav-item px-5 mx-3">
-              <a class="nav-link" href="#aboutSection">About</a>
-            </li>
+              <a class="nav-item nav-link" href="#projectsSection">Projects</a>
 
-            <li class="nav-item px-5 mx-3">
-              <a class="nav-link" href="#educationSection">Education</a>
-            </li>
-
-            <li class="nav-item px-5 mx-3">
-              <a class="nav-link" href="#socialSection">Social</a>
-            </li>
-
-            <li class="nav-item px-5 mx-3">
-              <a class="nav-link" href="#projectsSection">Projects</a>
-            </li>
-
-            <li class="nav-item px-5 mx-3">
-              <a class="nav-link" href="#contactSection">Contact</a>
-            </li>
-
-          </ul>
+              <a class="nav-item nav-link" href="#contactSection">Contact</a>
         </div>
     </nav>
 
-      <div id="aboutSection" class="row justify-content-between align-items-end mb-4">
+      <div id="meSection" class="row justify-content-between align-items-end mb-4">
           <i class="fas fa-chevron-up fa-2x pl-3 ml-4 text-hide" style="color: #D3D3D3; padding-bottom: 12px;"></i>
-            <h1><a href="#aboutSection">About</a></h1>
-          <a class="smooth-scroll" href="#educationSection"><i class="fas fa-chevron-down fa-2x pr-3 mr-4 text-white"></i></a>
+            <h1><a href="#meSection">Me</a></h1>
+          <a class="smooth-scroll" href="#projectsSection"><i class="fas fa-chevron-down fa-2x pr-3 mr-4 text-white"></i></a>
       </div>
 
-      <!-- <div ></div> -->
-
       <!-- <section class="jumbotron text-center pt-3"> -->
-        <p id="aboutMeText" class="text-justify">
-          My name is Ricky. I code <a href="http://es6-features.org/" target="_blank"><span style="background-color: #f7df1e; color: #000;font-weight: bold;">JavaScript (ES6+)</span></a> on the frontend and backend (<a href="https://nodejs.org/en/about/" target="_blank"><span style="color: #43853d;">Node.js</span></a> + <a href="https://expressjs.com/" target="_blank"><span style="color: #259dff;">Express.js</span></a>). This is my portfolio site (built mostly with <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="_blank"><span style="color: #6A5ACD;">Bootstrap</span></a> + CSS) showcasing my work/projects from the CUNY TechWorks software development program plus other personal projects. My ideal role would be a junior-level developer working with <a href="https://reactjs.org/" target="_blank"><span style="color: #61dafb;">React.js</span></a> or <a href="https://vuejs.org/" target="_blank"><span style="color: #4fc08d;">Vue.js</span></a>. Have a listen to some tunes from an amazing group on the <a href="https://developer.spotify.com/documentation/widgets/" target="_blank"><span style="color: #1ba84c;">Spotify Player</span></a> below and feel free to browse the rest of my page. Below are also some photos running in a carousel that represent issues I feel we should all care more about as human beings on this Earth. 🙂
+        <p id="meText" class="text-justify">
+          My name is Ricky and I code <span style="background-color: #f7df1e; color: #000;font-weight: bold;">JavaScript (ES6+)</span>. This is my portfolio site (built mostly using <span style="color: #6A5ACD;">Bootstrap</span> & CSS) showcasing my work/projects. I work mostly with frontend JavaScript libraries such as <span style="color: #61dafb;">React.js</span>, <span style="color: #663399;">Gatsby.js</span>, <span style="color: #FF3E00;">Svelte.js</span>, <span style="color: #159794;">Sapper.js</span>, <span style="color: #4fc08d;">Vue.js</span>, <span style="color: #00C58E;">Nuxt.js</span>, and <span style="color: #0073AA;">WordPress</span>. I also work with the <span style="color: #00A1E0;">Salesforce</span> CRM. My ideal role would be a junior level Frontend role working with a framework such as Vue or Svelte. Have a listen to some tunes on the <span style="color: #1ba84c;">Spotify Player</span> and browse through the rest of my site. Below are also some photos running in a carousel representing some pressing issues in the world that really matter to me. 🤔
         </p>
       <!-- </section> -->
 
@@ -69,7 +46,7 @@
           <div class="col-12">
             <iframe
               id="spotifyPlayer"
-              src="https://open.spotify.com/embed/artist/4wvPcMJk7L9Rbw9Qh4kBeH" 
+              src="https://open.spotify.com/embed/artist/4wvPcMJk7L9Rbw9Qh4kBeH"
               width="460"
               height="180"
               frameborder="0"
@@ -102,330 +79,299 @@
           <li data-target="#carouselExampleFade" data-slide-to="16"></li>
           <li data-target="#carouselExampleFade" data-slide-to="17"></li>
           <li data-target="#carouselExampleFade" data-slide-to="18"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="19"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="20"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="21"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="22"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="23"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="24"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="25"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="26"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="27"></li>
         </ol>
 
         <div class="carousel-inner">
 
-          <div class="carousel-item active">
-            <a href="https://www.bbc.com/news/in-pictures-50971879"
-              target="_blank"><img src="assets/images/bbc_australia.jpg" class="d-block w-100" alt="Australia Fires"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Australia Bushfires</span></h5>
-              <p><span>Australia bushfires have killed 1 billion+ animals, 23+ people, destroyed 1,700+ homes, with more than 10.7m hectares (would span over several states in U.S Tri-state area) burned.</span></p>
-            </div>
+          <div class="carousel-item active one" style="background-image: url(assets/images/ng_bear_bile.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/2020/03/chinese-government-promotes-bear-bile-as-coronavirus-covid19-treatment/#/03-bear-bile-nationalgeographic_1278169.jpg"
+              target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>"Medicinal" Wildlife Trade</span></h5>
+                <p><span>Secreted by the liver, bile is pumped from the gallbladder of various species of bears and has been used
+                    in traditional Chinese "medicine" since at least the 8th century. Diseases are common on bear bile farms, bile
+                    from sick animals can be contaiminated with blood, feces, pus, urine, and bacteria that may threaten human
+                    health.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/environment/2019/02/plastic-innovation-challenge-prize-clean-ocean/#/animals-plastic-nationalgeographic_2636691.jpg" target="_blank"><img src="assets/images/ng_turtle.jpg" class="d-block w-100" alt="Ocean Plastics"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Plastic Pollution</span></h5>
-              <p><span>Marine flora mixes with plastic packaging while a green sea turtle swims away from the trash.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/time_koala_bushfire.jpg)">
+            <a href="https://time.com/longform/australia-wildfires-bush-pictures/"
+              target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Australia Bushfires</span></h5>
+                <p><span>Half-burned koalas and kangaroos fleeing flames from the Australia bushfires that have killed 1 billion+ animals, 23+ people, destroyed 1,700+ homes, with more than 10.7m hectares (would span over several states in U.S. Tri-state area) burned.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/#/06-global-warming-gallery.jpg" target="_blank"><img src="assets/images/ng_polar_bear.jpg" class="d-block w-100" alt="Melting Polar Caps"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Global Warming</span></h5>
-              <p><span>Climate change is affecting flora and fauna across the Artic, the home of polar bears. Polar bears are having trouble finding food with all the sea ice they depend on melting!</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/nyt_pandemic.jpg)">
+            <a href="https://www.nytimes.com/interactive/2020/04/15/magazine/new-york-hospitals.html"
+              target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Global Pandemics</span></h5>
+                <p><span>According to Greenpeace, rising global temperatures, coupled with the increasing frequency of extreme weather events, are predicted to cause changes in the seasonality, geography and intensity of infectious diseases. The ongoing COVID-19 virus that started in December 2019 currently has over 2 million confirmed infections worldwide and has lead to over 145,000 deaths.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/environment/2019/04/dead-pregnant-whale-plastic-italy/#/01_whale_plastic_img_8090.jpg" target="_blank"><img src="assets/images/ng_plastic_whale2.jpg" class="d-block w-100" alt="Ocean Plastics"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Ocean Polution</span></h5>
-              <p><span>This pregnant sperm whale washed up dead in Italy with 50lbs of plastic in its stomach.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_turtle.jpg)">
+            <a href="https://www.nationalgeographic.com/environment/2019/02/plastic-innovation-challenge-prize-clean-ocean/#/animals-plastic-nationalgeographic_2636691.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Plastic Pollution</span></h5>
+                <p><span>Marine flora mixes with plastic packaging while a green sea turtle swims away from the trash.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/environment/2018/10/venice-floods-photos-climate-change/#/10_venice_rtx6h0ri.jpg" target="_blank"><img src="assets/images/ng_venice_flooding.jpg" class="d-block w-100" alt="Rising Ocean Levels"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Extreme Flooding</span></h5>
-              <p><span>Extreme weather such as floods are occuring all over the globe as an effect of climate change. This photo was taken in Venice in St. Mark's Square.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_opioid_crisis.jpg)">
+            <a href="https://www.nationalgeographic.com/magazine/2020/01/photographer-records-opiod-crisis-toll-in-philadelphia-feature/#/pain-man-shot-narcotics.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Opioid Crisis</span></h5>
+                <p><span>From 1999 to 2017 over 399,000 people has died from drug overdoses involving prescription and illicit Opioids. The Sackler Family, the heads of Purdue Pharma, made at least $8 billion in profit from selling prescription opioids from 2008 through 2018, reached a tentative deal to pay only roughly $3 billion in cash settlements. Johnson & Johnson has so far been ordered to pay close to $600 million in settlement money for their role in the crisis.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/magazine/2017/08/science-good-evil-charlottesville/#/good-and-evil-orlando-shooting-memorial.jpg" target="_blank"><img src="assets/images/ng_mass_shooting.jpg" class="d-block w-100" alt="Mass Shootings"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Mass Shootings</span></h5>
-              <p><span>Pulse nightclub shooting where a gunman pledging allegiance to ISIS popular gay bar in Orlando, Florida and killed 49 people. The U.S. has had more mass shootings than any other country.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_polar_bear.jpg)">
+            <a href="https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/#/06-global-warming-gallery.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Global Warming</span></h5>
+                <p><span>Climate change is affecting flora and fauna across the Artic, the home of polar bears. Polar bears are having trouble finding food with all the sea ice they depend on melting!</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/animals/reference/poaching-animals/#/01-poached-nationalgeographic_1511810.jpg" target="_blank"><img src="assets/images/ng_elephant_tusks.jpg" class="d-block w-100" alt="Illegal Wildlife Trade"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Poaching</span></h5>
-              <p><span>Elephant tusks are a hot commodity on the black market. Law enforcement destroys the ivory so it doesn't return to the black market.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_captive_tigers.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/2019/11/tigers-in-the-united-states-outnumber-those-in-the-wild-feature/#/ti-liger-in-oklahoma-kitchen.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Exotic Big Cat Trade</span></h5>
+                <p><span>Cross-breeds between lions and tigers that never occur in the wild produce ti-ligers, ligers, tigons, etc. They are bred and exploited purely for profit. It is estimated there are 5,000 to 10,000 captive tigers in the U.S. while only 3,900 tigers are estimated to still remain in the wild due to habitat loss, poaching, and conflicts with people.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/animals/2018/07/south-korea-dog-meat-ban-animals/#/01-dog-meat-ban-south-korea-gettyimages-898845204.jpg" target="_blank"><img src="assets/images/ng_dog_meat_korea.jpg" class="d-block w-100" alt="Dog Meat Trade"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Dog Meat</span></h5>
-              <p><span>Look at these cute dogs. Consuming dog meat is a common practice in parts of Asia. The tradition is on the decline as younger generations consider dogs to be pets versus food.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_venice_flooding.jpg)">
+            <a href="https://www.nationalgeographic.com/environment/2018/10/venice-floods-photos-climate-change/#/10_venice_rtx6h0ri.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Extreme Flooding</span></h5>
+                <p><span>Extreme weather such as floods are occuring all over the globe as an effect of climate change. This photo was taken in Venice in St. Mark's Square.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/magazine/2018/12/palm-oil-products-borneo-africa-environment-impact/#/palm-oil-orangutan-protected-island-indonasia.jpg" target="_blank"><img src="assets/images/ng_deforestation_orangutan.jpg" class="d-block w-100" alt="Deforestation"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Deforestation</span></h5>
-              <p><span>Half of the orangutan population has been lost due to man-induced deforestation to make room for livestock raising and palm oil plantations. Deforestation is a leading cause of climate change.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_mass_shooting.jpg)">
+            <a href="https://www.nationalgeographic.com/magazine/2017/08/science-good-evil-charlottesville/#/good-and-evil-orlando-shooting-memorial.jpg"
+              target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Mass Shootings</span></h5>
+                <p><span>Pulse nightclub shooting where a gunman pledging allegiance to ISIS popular gay bar in Orlando, Florida
+                    and killed 49 people. The U.S. has had more mass shootings than any other country.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/magazine/2017/04/explore-international-water-access/#/STOCK_20150728_UNICEF_Niger_0482.jpg" target="_blank"><img src="assets/images/ng_niger_water.jpg" class="d-block w-100" alt="Droughts"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Climate Change</span></h5>
-              <p><span>Climate change is causing extreme weather patterns across the globe leading to severe droughts in many parts of the world. This family in Niger uses 60 liters of water daily compared to 1000 liters of water used daily by a family in New York City.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_shark_finning.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/2020/02/united-states-facilitating-shark-fin-trade-south-america-asia/" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Shark Finning</span></h5>
+                <p><span>Considered a delicacy in parts of Asia, Shark Fin Soup can sell for up to $600/bowl. Some shark populations have declined by as much as 90 percent, largely as a result of overfishing. American ports act as layovers for global shipments of both both legal and illegal shark fins.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/environment/2019/02/plastic-innovation-challenge-prize-clean-ocean/#/animals-plastic-nationalgeographic_2283735.jpg" target="_blank"><img src="assets/images/ng_plastic_whale.jpg" class="d-block w-100" alt="Ocean Plastics"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Ocean Pollution</span></h5>
-              <p><span>A whale shark swims beside a plastic bag in the Gulf of Aden near Yemen. Whale sharks are the biggest fish in the sea, but are still threatened by ingesting small bits of plastic.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/bbc_australia.jpg)">
+            <a href="https://www.bbc.com/news/in-pictures-50971879" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Australia Bushfires</span></h5>
+                <p><span>Australia bushfires have killed 1 billion+ animals, 23+ people, destroyed 1,700+ homes, with more than 10.7m hectares (would span over several states in U.S. Tri-state area) burned.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/animals/2019/02/pangolin-pictures-world-pangolin-day/#/01-pangolin-day.jpg" target="_blank"><img src="assets/images/ng_pangolin_trade.jpg" class="d-block w-100" alt="Pangolin Trade"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>"Medicinal" Trade</span></h5>
-              <p><span>Pangolins are the most trafficked animal in the world. Its scales and meat are heavily traded. In 2016, 7.3 tonnes of pangolin scales were seized in Hong Kong, with a street value worth 2 million USD.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_elephant_tusks.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/reference/poaching-animals/#/01-poached-nationalgeographic_1511810.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Exotic Wildlife Trade</span></h5>
+                <p><span>Elephant tusks are a hot commodity on the black market. Law enforcement destroys the ivory so it doesn't return to the black market.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/magazine/2016/10/dark-world-of-the-rhino-horn-trade/#/MM8443_160504_014318.jpg" target="_blank"><img src="assets/images/ng_rhino_poaching.jpeg" class="d-block w-100" alt="Illegal Poaching"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Poaching</span></h5>
-              <p><span>Rhino poaching is a practice that occurs because rhino horns are sold lucratively on the black market for "medicinal use". Certain rhino populations are on the brink of extinction due to this illicit practice. This young white rhino resting after being transferred to a safer habitat in Botswana.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/weanimals_pigs.jpg)">
+            <a href="https://weanimalsmedia.org/project/pigs/" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Factory Farming</span></h5>
+                <p><span>Over 150 million pigs are raised in factory farms and killed for food each year. Pigs are very intelligent with cognitive abilities comparable to dogs and some primates. Though pigs can live upward of 10 years, most are sent to slaughter at around 4 or 5 months old.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nytimes.com/2018/11/10/us/the-california-fires-in-photos.html" target="_blank"><img
-                src="assets/images/ng_california_wildfire.jpg" class="d-block w-100" alt="California Wild Fires"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Wild Fires</span></h5>
-              <p><span>Climate change is causing extreme weather patterns including stronger winds that make wild fires such as
-                  this one in Southern California worse than they traditionally are.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/orca_seaworld.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/2019/03/orcas-captivity-welfare/"
+              target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Captive Orcas</span></h5>
+                <p><span>Wild Orcas, or Killer Whales, can live up to 50 or even 80 years, but when they are held captive in ocean amusement parks such as Seaworld, most of them don't live past 30. There are close to 60 orcas in capitivity around the world and there have been numerous incidents, including deaths of orca trainers because these majestic creatures are simply not suited to live in confined spaces when their natural home is the vast ocean.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="http://www.weanimals.org/gallery.php?id=100#ph20" target="_blank"><img src="assets/images/wa_rabbit_fur.jpg" class="d-block w-100" alt="Fur Trade"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Fur Trade</span></h5>
-              <p><span>Not only are rabbits raised and slaughtered to serve as meat, older rabbits are raised and killed for their fur, which is used in clothing, flyfishing lures, and trim on craft items.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_dog_meat_korea.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/2018/07/south-korea-dog-meat-ban-animals/#/01-dog-meat-ban-south-korea-gettyimages-898845204.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Dog Meat</span></h5>
+                <p><span>Look at these cute dogs. Consuming dog meat is a common practice in parts of Asia. The tradition is on the decline as younger generations consider dogs to be pets versus food.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="http://time.com/war-through-syrian-eyes/" target="_blank"><img src="assets/images/time_syrian_war.jpg" class="d-block w-100" alt="Syrian War"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>War</span></h5>
-              <p><span>There are a number of everlasting conflicts happening throughout the Middle East, as well as certain parts of Africa and Asia. There are few wars that have been more devasted than Syria. Of the at least 101 journalists killed in Syria since 2011, 27% were photographers.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/nrdc_flint_water_crisis.jpg)">
+            <a href="https://www.nrdc.org/stories/flint-water-crisis-everything-you-need-know" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Contaminated Water Supplies</span></h5>
+                <p><span>The Flint Water Crisis in Flint, Michigan, has been ongoing since 2014 when the city switched their drinking water supply from Detroit's system to the Flint River to save on costs. Inadequate treatment and testing of water resulted in health issues including skin rashes, hair loss, and itchy skin. Studies also revealed the contaminated water constributed to elevated blood lead levels. High levels of lead is especially harmful when exposed to infants, leading to impairment in brain development, reduction in IQ and physical growth, and it also contributes to anemia, hearing loss, cardiovascular disease, and behavioral problems.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="https://www.nationalgeographic.com/environment/2019/02/plastic-innovation-challenge-prize-clean-ocean/#/animals-plastic-nationalgeographic_1230842.jpg" target="_blank"><img src="assets/images/ng_plastic_dolphin.jpg" class="d-block w-100" alt="Ocean Plastics"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Ocean Plastic</span></h5>
-              <p><span>Plastic wrapping like this can permanently harm young marine animals, choking or disfiguring them.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/time_australia_bushfire.jpg)">
+            <a href="https://time.com/longform/australia-wildfires-bush-pictures/" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Australia Bushfires</span></h5>
+                <p><span>People stranded in Mallacoota, Victoria evacuated by Australian military during Australia bushfires that have killed 1 billion+ animals, 23+ people, destroyed 1,700+ homes, with more than 10.7m hectares (would span over several states in U.S. Tri-state area) burned.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="http://www.weanimals.org/gallery.php?id=99#ph9" target="_blank"><img src="assets/images/wa_factory_farming_chickens.jpg" class="d-block w-100" alt="Factory Farming"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Factory Farming</span></h5>
-              <p><span>The conditions in which livestock is raised in is usually gross and inhumane. We need to take a hard look at our food system and ponder the principles of profit vs health vs morality.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/borneo_deforestation_orangutan.jpg)">
+            <a href="https://www.nationalgeographic.com/magazine/2018/12/palm-oil-products-borneo-africa-environment-impact/#/palm-oil-orangutan-protected-island-indonasia.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Deforestation</span></h5>
+                <p><span>Half of the orangutan population has been lost due to man-induced deforestation to make room for livestock raising and palm oil plantations. Deforestation is a leading cause of climate change.</span></p>
+              </div>
+            </a>
           </div>
 
-          <div class="carousel-item">
-            <a href="http://www.weanimals.org/gallery.php?id=72#ph37" target="_blank"><img src="assets/images/wa_mink_fur.jpg" class="d-block w-100" alt="Fur Trade"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><span>Fur Trade</span></h5>
-              <p><span>85% of the fur industry's skins come from animals on fur factory farms, in which the conditions are filthy and unsanitary to say the least.</span></p>
-            </div>
+          <div class="carousel-item" style="background-image: url(assets/images/ng_niger_water.jpg)">
+            <a href="https://www.nationalgeographic.com/magazine/2017/04/explore-international-water-access/#/STOCK_20150728_UNICEF_Niger_0482.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Climate Change</span></h5>
+                <p><span>Climate change is causing extreme weather patterns across the globe leading to severe droughts in many parts of the world. This family in Niger uses 60 liters of water daily compared to 1000 liters of water used daily by a family in New York City.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/ng_plastic_whale.jpg)">
+            <a href="https://www.nationalgeographic.com/environment/2019/02/plastic-innovation-challenge-prize-clean-ocean/#/animals-plastic-nationalgeographic_2283735.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Ocean Pollution</span></h5>
+                <p><span>A whale shark swims beside a plastic bag in the Gulf of Aden near Yemen. Whale sharks are the biggest fish in the sea, but are still threatened by ingesting small bits of plastic.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/ng_pangolin_trade.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/2019/02/pangolin-pictures-world-pangolin-day/#/01-pangolin-day.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>"Medicinal" Wildlife Trade</span></h5>
+                <p><span>Pangolins are the most trafficked animal in the world. Its scales and meat are heavily traded. In 2016, 7.3 tonnes of pangolin scales were seized in Hong Kong, with a street value worth 2 million USD.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/ng_rhino_poaching.jpeg)">
+            <a href="https://www.nationalgeographic.com/magazine/2016/10/dark-world-of-the-rhino-horn-trade/#/MM8443_160504_014318.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Poaching</span></h5>
+                <p><span>Rhino poaching is a practice that occurs because rhino horns are sold lucratively on the black market for "medicinal use". Certain rhino populations are on the brink of extinction due to this illicit practice. This young white rhino resting after being transferred to a safer habitat in Botswana.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/nyt_california_wildfire.jpg)">
+            <a href="https://www.nytimes.com/2018/11/10/us/the-california-fires-in-photos.html" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Wild Fires</span></h5>
+                <p><span>Climate change is causing extreme weather patterns including stronger winds that make wild fires such as
+                    this one in Southern California worse than they traditionally are.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/ng_beluga_captive.jpg)">
+            <a href="https://www.nationalgeographic.com/animals/2019/06/russia-moves-orcas-and-belugas-from-whale-jail/#/wildlife-tourism-social-media-animals-26.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Captive Belugas</span></h5>
+                <p><span>Beluga whales caught from Russian waters performing in a Russia pop-up travelling aquarium don't live long in such conditions. While western aquariums are scaling back on hosting cetaceans in captivity due to public pressures, dolphinariums with wild-caught animals are a booming business in China, with 78 marine mamal parks already in existence and 26 more under construction.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/wp_yemen.jpg)">
+            <a href="https://www.washingtonpost.com/graphics/2018/world/amp-stories/photos-of-war-in-yemen/" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Endless Wars</span></h5>
+                <p><span>The Civil War in Yemen began in 2015 with the Saudi-UAE-backed coaliton fighting against the Houthi insurgency for control of the country. Yemen is now mired in famine and more than 85,000 people are estimated to have died as a result. It is also estimated that over 17,000 civilians have been killed or injured from widespread bombing of civilian areas.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/ng_plastic_dolphin.jpg)">
+            <a href="https://www.nationalgeographic.com/environment/2019/02/plastic-innovation-challenge-prize-clean-ocean/#/animals-plastic-nationalgeographic_1230842.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Ocean Plastic</span></h5>
+                <p><span>Plastic wrapping like this can permanently harm young marine animals, choking or disfiguring them.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/wa_factory_farming_chickens.jpg)">
+            <a href="https://weanimalsmedia.org/project/broiler-chickens/" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Factory Farming</span></h5>
+                <p><span>The conditions in which livestock is raised in is usually gross and inhumane. We need to take a hard look at our food system and ponder the principles of profit vs health vs morality.</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/images/ng_cattle_deforestation.jpg)">
+            <a href="https://www.nationalgeographic.com/culture/2019/08/amazon-burns-cattle-ranchers-blamed-complicated-relationship/#/amazon-fires-slash-burn-western-amazon-5.jpg" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span>Deforestation</span></h5>
+                <p><span>Thousands of fires in 2019 contributed to deforestation in the Amazon rainforests. According to data from Brazil's National Institute for Space Research, there was an 85% increase in fires in 2019 from the year prior. Cattle ranching is likely the main culprit for the increased fires. It is a complex problem becuase Brazil is major beef supplier to the world.</span></p>
+              </div>
+            </a>
           </div>
 
         </div>
+
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
+
         <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+
       </div>
 
-      <p id="disclaimer" class="text-danger text-justify"><span>DISCLAIMER:</span> I do not own the photos, please click on the photos themselves to see the actual source and learn more about each issue.</p>
-
-
-      <div id="educationSection" class="row justify-content-between align-items-end">
-        <a href="#aboutSection"><i class="fas fa-chevron-up fa-2x pl-3 ml-4 text-white"></i></a>
-          <h1><a href="#educationSection">Education</a></h1>
-        <a class="smooth-scroll" href="#socialSection"><i class="fas fa-chevron-down fa-2x pr-3 mr-4 text-white"></i></a>
-      </div>
-
-      <div class="card mb-3 mx-auto" style="max-width: 63%; margin-bottom: 3rem!important;">
-
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <a href="http://www.qcc.cuny.edu/contEd/CUNY-TechWorks.html" target="_blank">
-              <div class="item">
-                <img src="assets/avatars/ctw.png" style="border: 3rem solid #fff; outline: 1px solid #000; outline-offset: -3rem;" class="card-img" alt="TechWorks">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="http://www.qcc.cuny.edu/contEd/CUNY-TechWorks.html" target="_blank">
-                  CUNY TechWorks: Software Development Program
-                </a>
-              </h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  Comprehensive Software Development training program covering the core competencies needed for web client programming (frontend development), systems design and implementation (backend development), and smartphone application development
-                </li>
-                <li class="list-group-item">
-                  Technologies: Microsoft Office 365 Suite, HTML, CSS, Bootstrap, JavaScript, jQuery, React, React Native, C++, Java, Android Studio, Python
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3 mx-auto" style="max-width: 63%; margin-bottom: 3rem !important;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <a href="https://entrepreneurship.mit.edu/accelerator/2018-teams/" target="_blank">
-              <div class="item">
-                <img src="assets/avatars/acciyo.png" style="border: 3rem solid #fff; outline: 1px solid #000; outline-offset: -3rem;" class="card-img" alt="Acciyo">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="https://entrepreneurship.mit.edu/accelerator/2018-teams/" target="_blank">
-                  Acciyo: Full Stack Development Internship
-                </a>
-              </h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  News-tool startup Acciyo was a part of NYC Startup Studio (MIT delta v Accelerator)
-                </li>
-                <li class="list-group-item">
-                  Technologies: Chrome Extensions, JavaScript, CSS, jQuery(UI), Node, AJAX, Python, AWS Elasticsearch, Regex
-                </li>
-                <li class="list-group-item">
-                  Designed user login frontend with CSS & jQuery(UI) in Chrome extension tool for avid news readers
-                </li>
-                <li class="list-group-item">
-                  Set up manifest and content/background scripts with Chrome messaging (listeners) to interact with AWS S3 server for user login
-                </li>
-                <li class="list-group-item">
-                  Built queries w/ Python & wrote Regex to clean up AWS Elasticsearch metadata on scraped APNews text
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3 mx-auto" style="max-width: 63%; margin-bottom: 5rem !important;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <a href="https://www.galvanize.com/web-development" target="_blank">
-              <div class="item">
-                <img src="assets/avatars/galvanize.png" style="border: 3rem solid #fff; outline: 1px solid #000; outline-offset: -3rem;" class="card-img" alt="Galvanize">
-              </div>
-            </a>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">
-                <a href="https://www.galvanize.com/web-development" target="_blank">
-                  Galvanize: Full Stack Web Development Program
-                </a>
-              </h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  Diverse tech community in downtown NYC that offered a wide range of services including an immersive full stack web development education program, a startup atmosphere that included tech accleterator program Tech Stars, the opportunity to work with aspiring entrepreneurs seeking to get projects off the ground, as well as workshops hosted by established tech giants such as IBM.
-                </li>
-                <li class="list-group-item">
-                  Free panel and roundtable discussion events preaching diversity and inclusion in the tech industry were readily available for its members year-round.
-                </li>
-                <li class="list-group-item">
-                  Technologies: JavaScript, jQuery, ES6, HTML5, CSS3, MaterializeCSS, Bootstrap, Node, NPM, Yarn, Express, Knex, PostgreSQL, React, Create-React-App, Webpack, React Router, MobX, Postman, JSON, AJAX, Axios, Bcrypt, RESTful API, Twitter API, Google Maps API, DarkSky.net API, Behance API, Unsplash API, GitHub/Git, GitHub Pages, Firebase, Heroku
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div id="socialSection" class="row justify-content-between align-items-end">
-        <a href="#educationSection"><i class="fas fa-chevron-up fa-2x pl-3 ml-4 text-white"></i></a>
-          <h1><a href="#socialSection">Social + Resume</a></h1>
-        <a class="smooth-scroll" href="#projectsSection"><i class="fas fa-chevron-down fa-2x pr-3 mr-4 text-white"></i></a>
-      </div>
-
-
-      <div id="socialIcons" class="container">
-        <div id="iconRows" class="row text-center">
-          <div class="col-sm-4"><a href="https://github.com/ricardohuang81" target="_blank" class="selected" data-toggle="tooltip" data-placement="top" title="GitHub"><i class="fab fa-github"></i></a></div>
-          <div class="col-sm-4"><a href="https://www.linkedin.com/in/huangricky/" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
-          <div class="col-sm-4"><a href="https://codepen.io/ricardojames51/pens/public/" target="_blank" data-toggle="tooltip" data-placement="top" title="CodePen"><i class="fab fa-codepen"></i></a></div>
-
-          <!-- Force next columns to break to new line -->
-          <div class="w-100"></div>
-
-          <div class="col-sm-4"><a href="https://twitter.com/ricardojames51" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></div>
-          <div class="col-sm-4"><a href="https://www.instagram.com/rickylosophy/" target="_blank" data-toggle="tooltip" data-placement="top" title="IG"><i class="fab fa-instagram"></i></a></div>
-          <div class="col-sm-4"><a href="https://www.facebook.com/ricardojames51" target="_blank" data-toggle="tooltip" data-placement="top" title="FB"><i class="fab fa-facebook-f"></i></a></div>
-
-          <div class="w-100"></div>
-
-          <div class="col-sm-4"><a href="https://dev.to/rickyjames51" target="_blank" data-toggle="tooltip" data-placement="top" title="Practical Dev"><i class="fab fa-dev" title="rickyjames51's DEV Profile"></i></a></div>
-          <div class="col-sm-4"><a href="https://www.quora.com/profile/Ricky-Huang-7" target="_blank" data-toggle="tooltip" data-placement="top" title="Quora"><i class="fab fa-quora"></i></a></div>
-          <div class="col-sm-4"><a href="https://www.meetup.com/members/204234831/" target="_blank" data-toggle="tooltip" data-placement="top" title="Meetup"><i class="fab fa-meetup"></i></a></div>
-
-          <div class="w-100"></div>
-
-          <div class="col-sm-4"><a href="https://stackoverflow.com/users/8565713/ricky-ricardo?tab=profile" target="_blank" data-toggle="tooltip" data-placement="top" title="Stack Overflow"><i class="fab fa-stack-overflow"></i></a></div>
-          <div class="col-sm-4"><a href="https://angel.co/ricardohuang51" target="_blank" data-toggle="tooltip" data-placement="top" title="AngelList"><i class="fab fa-angellist"></i></a></div>
-          <div class="col-sm-4"><a href="https://medium.com/@ricardojames51" target="_blank" data-toggle="tooltip" data-placement="top" title="Medium"><i class="fab fa-medium"></i></a></div>
-
-          <div class="w-100"></div>
-
-
-          <div class="col-sm-12 pl-0"><a href="assets/resume/NA_Resume_Ricky_Huang.pdf" target="_blank" download="NA_Resume_Ricky_Huang" data-toggle="tooltip" data-placement="right" title="Click for Resume"><i class="fas fa-file-medical-alt fa-lg"></i></a></div>
-
-
-        </div>
-      </div>
-
+      <p id="disclaimer" class="text-justify"><span style="color: #0000CD;">DISCLAIMER:</span> I do not own the photos, please click on the captions within the photos to see the source and learn more about each issue.</p>
 
       <div id="projectsSection" class="row justify-content-between align-items-end">
-        <a href="#socialSection"><i class="fas fa-chevron-up fa-2x pl-3 ml-4 text-white"></i></a>
+        <a href="#meSection"><i class="fas fa-chevron-up fa-2x pl-3 ml-4 text-white"></i></a>
           <h1><a href="#projectsSection">Projects</a></h1>
         <a class="smooth-scroll" href="#contactSection"><i class="fas fa-chevron-down fa-2x pr-3 mr-4 text-white"></i></a>
       </div>
@@ -435,7 +381,7 @@
         <section class="jumbotron text-justify pt-3">
           <div class="container">
 
-            <p class="lead text-body mb-4">Check out some of my frontend projects from the CUNY TechWorks JavaScript course plus some other personal projects (including mini projects I followed on Udemy) using HTML, CSS, Vanilla JS, Bootstrap, jQuery, the YouTube API, React.js, Redux.js, Gatsby.js, and more. 😎 (Feel free to share this page 🙂)</p>
+            <p class="lead text-body mb-4">Here are some of my frontend projects using JavaScript, jQuery, React, Svelte, Nuxt, and APIs. 😎</p>
 
             <p id="shareIcons" class="text-center">
 
@@ -463,6 +409,7 @@
 
               <div class="col-md-4">
                 <div class="card border-info mb-4">
+
                   <div class="item">
                     <a href="https://rickyhuang.me/code-blue/" target="_blank"><img src="assets/proj_images/blue.jpeg" class="card-img-top" width="100%" height="225" alt="project-image"></a>
                   </div>
@@ -477,11 +424,13 @@
                     <p class="card-text text-center" style="color: #7B68EE;">Mobile Responsive project celebrating the color <span style="color: #1E90FF;">BLUE</span></p>
                     <p class="card-text text-center font-weight-bolder">HTML, CSS, Flexbox, Animate.css, animejs, jQuery</p>
                   </div>
+
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="card border-info mb-4">
+
                   <div class="item">
                     <a href="https://rickyhuang.me/hells-kitch/" target="_blank"><img src="assets/proj_images/hells_kitchen.jpg" class="card-img-top" width="100%" height="225" alt="project-image"></a>
                   </div>
@@ -496,11 +445,13 @@
                     <p class="card-text text-center" style="color: #7B68EE;">Static HTML Neighborhood project dedicated to Hell's Kitchen, its comic books characters, its Netflix tv shows and New York City.</p>
                     <p class="card-text text-center font-weight-bolder">HTML, Beauter, CSS, jQuery</p>
                   </div>
+
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="card border-info mb-4">
+
                   <div class="item">
                     <a href="https://cocky-heisenberg-2739a4.netlify.com/" target="_blank"><img src="assets/proj_images/supreme.jpeg" class="card-img-top" width="100%" height="225" alt="project-image"></a>
                   </div>
@@ -509,17 +460,19 @@
                     <div class="d-flex justify-content-center">
                       <div class="btn-group align-items-end">
                         <a href="https://github.com/ricardohuang81/nuxt-blog" target="_blank" class="selected mx-3" data-toggle="tooltip" data-placement="left" title="GitHub Repo"><i class="fab fa-github fa-2x"></i></a>
-                        <a href="https://cocky-heisenberg-2739a4.netlify.com/" target="_blank" class="selected mx-3" data-toggle="tooltip" data-placement="right" title="AWS S3 Bucket"><i class="fas fa-link fa-2x"></i></a>
+                        <a href="https://cocky-heisenberg-2739a4.netlify.com/" target="_blank" class="selected mx-3" data-toggle="tooltip" data-placement="right" title="Netlify"><i class="fas fa-link fa-2x"></i></a>
                       </div>
                     </div>
-                    <p class="card-text text-center" style="color: #7B68EE; font-size: 14px;">Nuxt.js Statically Generated (great SEO) Streetwear Blog with Signin/Registration using Firebase Realtime DB + Nuxt Animations deployed to Netlify</p>
+                    <p class="card-text text-center" style="color: #7B68EE; font-size: 14px;">Nuxt.js Statically Generated Streetwear Blog with Signin/Registration using Firebase Realtime DB + Nuxt Animations</p>
                     <p class="card-text text-center font-weight-bolder" style="font-size: 14px;">Create-Nuxt-App, Nuxt.js, Vue.js, VueX, CSS, Nuxt Animations, Firebase, Git, Netlify</p>
                   </div>
                 </div>
+
               </div>
 
               <div class="col-md-4">
                 <div class="card border-info mb-4">
+
                   <div class="item">
                     <a href="https://focused-chandrasekhar-e24b41.netlify.com/" target="_blank"><img
                         src="assets/proj_images/pop_repos.jpeg" class="card-img-top" width="100%" height="225"
@@ -538,8 +491,8 @@
                     <p class="card-text text-center" style="color: #7B68EE;">React App displays popular GitHub repos by
                       programming language + stars, "battle" with GitHub user profiles, light/dark mode</p>
                     <p style="font-size: 14px;" class="card-text text-center font-weight-bolder">React Hooks, Context, Class Fields Syntax, CSS, Code Splitting, GitHub API, Webpack, Git, Netlify</p>
-
                   </div>
+
                 </div>
               </div>
 
@@ -552,17 +505,16 @@
                   </div>
 
                   <div class="card-body">
+
                     <div class="d-flex justify-content-center">
                       <div class="btn-group align-items-end">
                         <a href="https://github.com/ricardohuang81/svelte-meetup-app" target="_blank" class="selected mx-3"
                           data-toggle="tooltip" data-placement="left" title="GitHub Repo"><i class="fab fa-github fa-2x"></i></a>
                         <a href="http://svelte-meetdowns.s3-website-us-east-1.amazonaws.com/" target="_blank" class="selected mx-3"
-                          data-toggle="tooltip" data-placement="right" title="AWS S3 Bucket"><i class="fas fa-link fa-2x"></i></a>
+                          data-toggle="tooltip" data-placement="right" title="AWS S3"><i class="fas fa-link fa-2x"></i></a>
                       </div>
                     </div>
-                    <p class="card-text text-center" style="color: #7B68EE; font-size: 16px;">Svelte.js Single Page Application
-                      that allows user to create, edit, favorite, delete Meetups with data from Firebase, Svelte Animations, hosted on AWS
-                      S3 Bucket</p>
+                    <p class="card-text text-center" style="color: #7B68EE; font-size: 16px;">Svelte.js Single Page Application that allows user to create, edit, favorite, delete Meetups with data from Firebase, Svelte Animations</p>
                     <p class="card-text text-center font-weight-bolder" style="font-size: 16px;">Svelte.js, CSS, Svelte Animations, Firebase, Rollup, AWS S3</p>
                   </div>
 
@@ -571,6 +523,7 @@
 
               <div class="col-md-4">
                 <div class="card border-info mb-4">
+
                   <div class="item">
                     <a href="https://fishing-youtube-vids.glitch.me/" target="_blank"><img src="assets/proj_images/fishing.jpeg" class="card-img-top" width="100%" height="225" alt="project-image"></a>
                   </div>
@@ -584,8 +537,8 @@
                     </div>
                     <p class="card-text text-center" style="color: #7B68EE;">Project using YouTube API to make a page of videos and be able to search for YouTube videos</p>
                     <p class="card-text text-center font-weight-bolder">HTML, CSS, JavaScript, jQuery, AJAX, YouTube API</p>
-
                   </div>
+
                 </div>
               </div>
 
@@ -636,6 +589,7 @@
 
               <div class="col-md-4">
                 <div class="card border-info mb-4">
+
                   <div class="item">
                     <a href="https://redux-polls-app.now.sh/" target="_blank"><img src="assets/proj_images/poll.jpeg" class="card-img-top" width="100%" height="225" alt="project-image"></a>
                   </div>
@@ -649,8 +603,8 @@
                     </div>
                     <p class="card-text text-center" style="color: #7B68EE;">React-Redux Polls App allows you to vote in and conduct polls</p>
                     <p class="card-text text-center font-weight-bolder">Create-React-App, React, CSS, React-Redux, Thunk, React-Router, Redux Dev Tools, Git, ZEIT Now</p>
-
                   </div>
+
                 </div>
               </div>
 
@@ -674,7 +628,7 @@
         <!--Section heading-->
 
         <!--Section description-->
-        <p class="mb-4" style="font-size: 20px; color: #4682B4;">Please fill out your name, email address, and leave a short message, thanks. 🙂</p>
+        <p class="mb-4 text-center" style="font-size: 20px; color: #4169E1;">Leave me a short message 😎</p>
 
         <div class="row">
 
@@ -694,7 +648,7 @@
                       id="name"
                       name="name"
                       class="form-control"
-                      placeholder="Your Name"
+                      placeholder="Name"
                       required
                     >
                   </div>
@@ -710,7 +664,7 @@
                       id="email"
                       name="_replyto"
                       class="form-control"
-                      placeholder="Your Email"
+                      placeholder="Email"
                       required
                     >
                   </div>
@@ -730,7 +684,7 @@
                       id="subject"
                       name="subject"
                       class="form-control"
-                      placeholder="Your Subject"
+                      placeholder="Subject"
                       required
                     >
                   </div>
@@ -750,8 +704,8 @@
                       type="text"
                       id="message"
                       name="message"
-                      rows="2"
-                      placeholder="Your Message"
+                      rows="1"
+                      placeholder="Message"
                       class="form-control md-textarea"
                       required
                     ></textarea>
@@ -772,17 +726,22 @@
           <!--Grid column-->
           <div id="contactIcons" class="col-md-3 text-center">
             <ul class="list-unstyled my-3">
-              <li><a href="https://goo.gl/maps/Le6s2HPjxLx" target="_blank" data-toggle="tooltip" data-placement="right" title="Location"><i class="fas fa-street-view fa-3x mt-1 mb-5"></i></a>
-
+              <li>
+                <a href="https://github.com/ricardohuang81" target="_blank" class="selected" data-toggle="tooltip" data-placement="left" title="GitHub"><i class="fab fa-github fa-2x mb-5" aria-hidden="true"></i></a>
               </li>
 
-              <li><a href="https://www.donotcall.gov/" target="_blank" data-toggle="tooltip" data-placement="right" title="Mobile"><i class="fas fa-mobile-alt fa-3x mb-5"></i></a>
-
+              <li>
+                <a href="https://www.linkedin.com/in/huangricky/" target="_blank" data-toggle="tooltip" data-placement="right" title="LinkedIn"><i class="fab fa-linkedin-in fa-2x mb-5" aria-hidden="true"></i></a>
               </li>
 
-              <li><a href="mailto:huangricky@gmail.com?subject=Hi Ricky" data-toggle="tooltip" data-placement="right" title="Email"><i class="fas fa-envelope-open-text fa-3x"></i></a>
-
+              <li>
+                <a href="https://trailhead.com/me/huangricky" target="_blank" data-toggle="tooltip" data-placement="left" title="Salesforce"><i class="fab fa-salesforce fa-2x mb-5"></i></a>
               </li>
+
+              <li>
+                <a href="assets/resume/NA_Resume_Ricky_Huang.pdf" target="_blank" download="NA_Resume_Ricky_Huang" data-toggle="tooltip" data-placement="right" title="Resume"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a>
+              </li>
+
             </ul>
           </div>
           <!--Grid column-->
@@ -797,9 +756,9 @@
         <div class="container-fluid text-center">
 
           <p class="mb-3">RICKY HUANG</p>
-          <p class="mb-3">© 2019</p>
+          <p class="mb-3">© Queens, NY 2020</p>
           <p class="float-center">
-            <a href="#aboutSection">Back to top</a>
+            <a href="#meSection">Back to top</a>
           </p>
         </div>
       </footer>
@@ -813,6 +772,7 @@
 
     <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="https://kit.fontawesome.com/dab12e1e63.js" crossorigin="anonymous"></script>
     <script>
 
       $("document").ready(function () {
