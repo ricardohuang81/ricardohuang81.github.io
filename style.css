@@ -209,10 +209,22 @@ h1 a:active {
   height: 100vh;
   background-size: cover;
   background-position: center;
+  filter: blur(4px);
+  -webkit-filter: blur(4x);
   -webkit-background-attachment: fixed;
   -moz-background-attachment: fixed;
   -o-background-attachment: fixed;
   background-attachment: fixed;
+}
+
+.carousel-item:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  filter: none !important;
+  -webkit-filter: none !important;
 }
 
 .carousel-inner:hover {
