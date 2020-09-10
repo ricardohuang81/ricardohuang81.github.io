@@ -222,11 +222,6 @@ h1 a:active {
   -webkit-filter: none;
 }
 
-.carousel-control-next:hover, .carousel-control-prev:hover {
-  filter: none !important;
-  -webkit-filter: none !important;
-}
-
 .carousel-inner:hover {
   opacity: 0.9;
 }
